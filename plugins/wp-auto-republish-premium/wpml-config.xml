@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wpar_plugin_settings">
+            <key name="wpar_republish_position_text" />
+            <key name="email_subject" />
+            <key name="email_message" />
+        </key>
+    </admin-texts>   
+</wpml-config>

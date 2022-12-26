@@ -1,0 +1,340 @@
+<strong>= 3.5.8 =</strong>
+<ul>
+    <li><strong>FIX : Calendly button conflict</strong><br>The Calendly button had a conflict with other plugins.</li>
+</ul>
+<strong>= 3.5.7 =</strong>
+<ul>
+    <li><strong>NEW : Calendly support</strong><br>Make an ability to add Calendly link to the agent</li>
+</ul>
+<strong>= 3.5.6 =</strong>
+<ul>
+    <li><strong>FIX : Google Map API</strong><br>Google Map API was broken after previous release</li>
+</ul>
+<strong>= 3.5.5 =</strong>
+<ul>
+    <li><strong>FIX : Custom "allow" param in the generic iframe</strong><br>Data from allow parameter was not used in the generic iframe</li>
+    <li><strong>FIX : Empty "text" tab in model content field</strong><br>Model content was empty on the text tab active</li>
+</ul>
+<strong>= 3.5.4 =</strong>
+<ul>
+    <li><strong>FIX : Fatal error in the "exclude" column</strong><br>Fatal error in the "exclude" column when ACF is deactivated was fixed</li>
+</ul>
+<strong>= 3.5.3 =</strong>
+<ul>
+    <li><strong>FIX : Conflict with Elementor Builder</strong><br>Elementor builder had a conflict with WP3D plugin</li>
+</ul>
+<strong>= 3.5.2 =</strong>
+<ul>
+    <li><strong>FIX : Display title on the Matterport premium models</strong><br>Display title on the Matterport premium models.</li>
+    <li><strong>New : Multi-site support</strong><br>Added WP Multi-site support.</li>
+    <li><strong>New : License notices</strong><br>Added notices on license check.</li>
+    <li><strong>New : Layout changes on the model edit page</strong><br>Some links were moved from the top menu to the form.</li>
+</ul>
+<strong>= 3.5.1 =</strong>
+<ul>
+  <li><strong>FIX : Matterport MLS Parameter Bug</strong><br>Quick fix to accommodate a change from "null" to "0" for the "mls" parameter value.</li>
+</ul>
+<strong>= 3.5 =</strong>
+<ul>
+ <li><strong>NEW : MPEmbed Premium Support</strong><br>This one has been requested by a number of WP3D users, as well as Chris Hickman himself. Done!</li>  
+ <li><strong>NEW : MPEmbed Music Support</strong><br>This one has also been requested by a number of WP3D users, as well as Chris Hickman himself. Also done!</li> 
+ <li><strong>NEW : Matterport Parameters</strong><br>Matterport added some new 'pin' and 'portal' parameters, this version adds support for these (arguably fringe) parameters.</li> 
+ <li><strong>FIX : Yoast SEO 14.x support</strong><br>Yoast SEO 14.x made some larger changes that caused errors for some WP3D installations.  This fixes things up.</li>
+ <li><strong>FIX : Admin Bar Embed Codes</strong><br>WordPress version 3.4 introduced a change that prevented our embed code popup from working. Tis fixed!</li> 
+ <li><strong>FIX : Skinned View Form Checkbox</strong><br>CSS Formatting fix for IE/EDGE browsers, on the contact form "consent" checkbox presentation.</li>
+ <li><strong>FIX : MPEmbed "Wildcard" Parameter</strong><br>Previously, only one "wildcard" parameter could be used, now you can enter multiple.</li>
+ <li><strong>FIX : Google+ Be Gone</strong><br>This was overdue...sorry. References to sharing via the (defunct) Google+ platform are now removed.</li> 
+ <li><strong>FIX : WP3D Options Formatting</strong><br>Some styling cleanups have been added/made to the WP3D Settings & Edit screens.</li>
+</ul>
+
+<strong>= 3.2.1 =</strong>
+<ul>
+ <li><strong>FIX : Advanced Custom Fields v.5.7.6 (& newer) support</strong><br>WP3D now offers full support for the latest version of Advanced Custom Fields (ACF). Big changes were made to the codebase for ACF (free) 5.x and we're excited to leverage more of what is now available (in future versions of WP3D Models)!</li>
+ <li><strong>FIX : MonsterInsights Pro</strong><br>MonsterInsights Pro is now supported (alongside "Free") when using the analytics integration with MPEmbed.</li>
+ <li><strong>FIX : ACF "Field Group" Bug</strong><br>For new WP3D Models users, it was possible to trigger a bug related to our ACF "Field Groups". This has been fixed. :)</li>
+</ul>
+
+<strong>= 3.2.0 =</strong>
+<ul>
+ <li><strong>NEW : Full MPEmbed Support</strong><br>You asked for it! WP3D now offers full UI support for <a href="">MPEmbed</a>. This free service leverages the Matterport 3D Showcase SDK and allows for great customization of previously "uncustomizable" Matterport Showcase elements &amp; actions.</li>
+ <li><strong>NEW : Model Client Logos**</strong><br>New "Model Client" logos (large & small) fields make it possible to set global (override) logos for clients, applying to any Model where that client is selected.</li>
+ <li><strong>NEW : Model Client URL**</strong><br>A new "Model Client" URL field makes it possible to set a global (override) URL for a client, applying to any Model where that client is selected.</li>
+ <li><strong>NEW : Client Message Template</strong><br>A new "WP3D Models Tools" menu option (side menu only) provides a way to easily copy all generated Model links and embed codes (to be forwarded on to a client).</li>
+ <li><strong>NEW : "Skinned" Autostart Timing</strong><br>We've expanded on the WP3D "skinned start" value with the addition of a millisecond timing "delay" value of "#delay-2000" (where "2000" can be any number of milliseconds).</li>
+ <li><strong>NEW : "Skinned" Autostart Link</strong><br>This relatively unknown URL-based feature (which allows for autostarting the "skinned" view) is now part of the "WP3D Models Tools" menu.</li>
+ <li><strong>NEW : WP3D "offset" Parameter</strong><br>A new WP3D shortcode parameter of "offset" allows for the creation of new galleries/showcases that don't show the first "x" (offset) number of Models.</li>
+ <li><strong>NEW : Matterport Chinese CDN URL</strong><br>Chinese CDN URLs are now used when a Matterport Chinese URL is entered, or "Chinese" is selected as the language.</li>
+ <li><strong>NEW : Matterport Chinese CDN URL</strong><br>Chinese CDN URLs are now used when a Matterport Chinese URL is entered, or "Chinese" is selected as the language.</li>
+ <li><strong>NEW : Override URL</strong><br>In addition to offering "skinned" view "Override Logos" we now offer an "Override URL" to change where branding logos link to.</li>
+ <li><strong>NEW : GDPR Form Consent</strong><br>To better support GDPR, we've added a new global setting that enables a "capture content" checkbox on all "skinned" forms.</li>
+ <li><strong>NEW : WebVR Attribute</strong><br>To support WebVR content, the - allow="vr" - attribute has been added to all WP3D Models-generated iframes.</li>
+ <li><strong>NEW : Updated ACF Add-Ons (v.2.1)**</strong><br>In preparation for the forthcoming ACF5 release, we're pre-pushing out new versions of bundled ACF Add-Ons.</li>
+ <li><strong>NEW : Japanese Language</strong><br>Japanese language parameter added.</li>
+ <li><strong>NEW : Additional body classes</strong><br>New body classes have been added to WP3D views to assist in better targeting/customizing page elements (including "Model Type" and "Model Client" classes).</li>
+ <li><strong>ENHANCEMENT : Admin Speed Increase</strong>We're piggybacking here on forthcoming enhancements to ACF (required plugin) v.5. <a href="https://www.advancedcustomfields.com/resources/upgrade-guide-version-5/" target="_blank">Early access is available via these (advanced users only) instructions.</a></li> 	
+ <li><strong>FIX : </strong><br>"Skinned" view CSS adjustment to assist in a slightly better presentation when a Model is using a "masking" URL (not recommended).</li>
+ <li><strong>FIX : </strong><br>"Skinned" view map size is adjusted to look better on portrait-oriented iPads.</li>
+ <li><strong>FIX : </strong><br>Added better compatibility with default WP login/register pages.</li>
+ <li><strong>FIX : </strong><br>"For Sale" & "Pending" label logic fix.</li>
+ <li><strong>FIX : </strong><br>CSS/Style Cleanup on the "WP3D Models Tools" Side (Tabbed) Menu.</li>
+ <li><strong>FIX : </strong><br>Adjusted default tour text to be "Start Tour" vs "Start 3D Tour" since not all added content is definitively 3D (Matterport).</li>
+ <li><strong>FIX : </strong><br>Misc PHP "Warnings" cleaned up and removed.</li>
+ <li><strong>**</strong> These features require Advanced Custom Fields v.5.x in order to work. This new version of ACF will be relased in mid/late 2018, or you can elect to (backup your site) and <a href="https://www.advancedcustomfields.com/resources/upgrade-guide-version-5/" target="_blank"></a>manually update your version of ACF now</a>.</li>
+</ul>
+
+<strong>= 3.1.0 =</strong>
+<ul>
+ <li><strong>NEW : Showcase Language Parameter</strong><br>WP3D now supports new Matterport Showcase language support for Chinese.</li>
+ <li><strong>NEW : Reworked Skinned CSS</strong><br>Better presentation method for "Skinned" tour content box. Promotes scrolling to additional content. </li>
+ <li><strong>NEW : Dollhouse Parameter</strong><br>A new toggle option is now available to hide the dollhouse "fly-in" and dollhouse Showcase icon.</li>
+ <li><strong>NEW : Mattertag Parameter</strong><br>A new toggle option is now available to hide Showcase Mattertags.</li>
+ <li><strong>NEW : VR Limited Mode Parameter</strong><br>A new toggle option is now available that will open a Space in a limited mode in the Matterport VR app.</li>
+ <li><strong>NEW : Updated ACF Add-Ons</strong><br>In preparation for the forthcoming ACF5 release, we're pre-pushing out new versions of bundled ACF Add-Ons.</li>
+ <li><strong>FIX : </strong><br>iOS & iPad-specific bugfixes.  Reversing out a hack/fix for a previous display issue.</li>
+ <li><strong>FIX : </strong><br>CSS Cleanup on the Fullscreen view, removing some "focus" styling.</li>
+ <li><strong>FIX : </strong><br>Bugfix related to the Form Conditional logic.</li>
+ <li><strong>FIX : </strong><br>Bugfix related to the Fullscreen Highlight reel logo placement.</li>
+</ul>
+
+<strong>= 3.0.0 =</strong>
+<ul>
+ <li><strong>NEW : Base Model Content</strong> A top requested feature for some time. Models can now be created around Matterport, 360 Panoramas, Video &amp; more. WP3D is now your all-in-one online tour creation tool!</li>
+ <li><strong>NEW : Shortcode parameter "viewlink"</strong> Display the Fullscreen view in a modal (popup) window, or a new window/tab. Great for simple portfolio pages!</li>
+ <li><strong>NEW : Skinned Logo Link</strong> The "Skinned" view was designed to be hyper-focused on a single property with no external links. But, we understand wanting to at least link back to your (or your client's) site/domain.</li>
+ <li><strong>NEW : Custom Status</strong> For awhile now WP3D has offered "Sold" and "Sale Pending" Model status options. We've now added a new "Custom" option to fill the gap of whatever status you and/or your clients need.</li>
+ <li><strong>NEW : Affiliate Link Filter</strong> So, you want to swap in your very own WP3D Models affiliate link to the "Powered by WP3D Models" link? Now you can. Also, thanks for the support!</li>
+ <li><strong>NEW : RTL Support</strong> Right-To-Left! Basic support has been added for RTL languages like Arabic, Hebrew, Persian/Farsi, Kurdish, Urdu, Dhivehi/Maldivian, Azeri &amp; Aramaic.</li>
+ <li><strong>NEW : New Languages</strong> Following on the heels of Matterport's recent addition of German &amp; Russian language translations, we've also added full support within WP3D Models.</li>
+ <li><strong>NEW : Form Event Tracking</strong> New analytics event tracking code has been added to the Skinned view and can help in comparing page views with actual form "submits".</li>
+ <li><strong>NEW : Agent Email BCC</strong> Do you, or your client, have an additional someone that should be included in correspondence from the "Skinned" view Contact Form? A new BCC field was added for just this reason!</li>
+ <li><strong>NEW : oEmbed whitelist</strong> WordPress offers native oEmbed support, but only for a specific set of (very large) brands. Now, via WP3D Models, we've whitelisted oEmbed support for "Matterport" and "ThreeSixty Tours" content.</li>
+ <li><strong>NEW : Social Share Autostart</strong> New Global option to enable "autoplaying" a Matterport tour when a link is followed from a social share. (Or, manually adding "#start" to the end of the "/skinned" URL.</li>
+ <li><strong>NEW : Matterport Deeplinks</strong> A few of you REALLY wanted to be able to use a Matterport "deep link" URL to start a tour at a very specific point. <a href="https://wp3dmodels.com/doc/use-matterport-deep-links/" target="_blank">We've got this all glued in now</a> and it's a fantastic addition. Thx guys.</li>
+ <li><strong>NEW : Listing ID</strong> A new "Listing ID" field has been added to the "Admin" tab. This field doesn't add any front end value to WP3D Models, but can be leveraged for custom content syndication solutions.</li>
+ <li><strong>NEW : Hide Highlight Reel</strong> While not entirely "New", the ability to force hide the Highlight Reel, with 360s photos included, is now possible.</li>
+ <li><strong>NEW : Tour Call to Action </strong> Select between several different options for what happens after an autoplaying tour completes.</li>
+ <li><strong>NEW : Play Button Filter </strong> Using a newly added WordPress filter, you can now globally change out the WP3D "play" button with a custom icon (URL) or another FontAwesome icon.</li>
+ <li><strong>NEW : Webfont Filter </strong> Also using a new WordPress filter, you can now globally customize the webfont(s) that are used by WP3D.</li>
+ <li><strong>NEW : Skinned IDs &amp; Hooks</strong> Skinned views can now be further customized using additional element ids &amp; WordPress Hooks.</li>
+ <li><strong>NEW : Property Tab Content</strong> New Global Settings allow for enabling the WYSIWYG "Media" Button as well as increasing the total number of Property Tabs per Model.</li>
+ <li><strong>NEW : Agent Yelp Icon </strong> We already test for a number of different Agent "Social" brand URLs, and we've just added Yelp into the mix.</li>
+ <li><strong>NEW : Model Pixel Codes</strong> For your clients that need per-Model custom Facebook pixel codes, we've added support for tracking this information.</li>
+ <li><strong>NEW : "WP3D Models Tools" Location</strong> By default the "WP3D Models Tools" menu lives in the "Admin Bar" atop the Model Edit screen. This can now be moved to the side.</li>
+ <li><strong>BETA : FS Keyboard Nav Framework</strong> While there's no official functionality being released, we've started the process of building to make alternate content &amp; keyboard-accessible fullscreen views possible. If you have a need for more accessible Models, please <a href="https://wp3dmodels.com/contact/" target="_blank">reach out to us</a> for more information.</li>
+ <li><strong>FIX : </strong>There's a lot of you guys running the Avada Theme! Given this volume, we've added a couple/few CSS rules that add a bit of polish to the "Standard" view.</li>
+ <li><strong>FIX : </strong>Our Standard Gallery seemed to have an issue with captions displaying incorrectly. This his now all buffed out.</li>
+ <li><strong>FIX : </strong>Dear Apple, whatever you did that busted up the autoplaying Matterport display on iPads has now been fixed. Where should we send our invoice? :(</li>
+ <li><strong>FIX : </strong>Under certain circumstances, some contact forms were not sending correctly if reCAPTCHA wasn't enabled. Fixed.</li>
+ <li><strong>FIX : </strong>We found that if custom colors weren't set in the global options, then some override corners weren't showing! Ooops. Fixed.</li>
+ <li><strong>FIX : </strong>VR was disabled on "Nobrand" but not always on "Fullscreen Nobrand". Fixed!</li>
+ <li><strong>FIX : </strong>Dang, we forgot to add in a translation filter for the reCAPTCHA error text. All patched up.</li>
+</ul>
+<strong>= 2.2.1 =</strong>
+<ul>
+ <li><strong>NEW : Google reCAPTCHA</strong> SPAM Email stinks and WP3D "Skinned" view Forms were recenty hit with a strong wave of garbage submissions.  It seems that our previous spam protection methods were finally thwarted and we had to bring in the big guns (Google reCAPTCHA). </li>
+ <li><strong>FIX : </strong><br>We fixed a couple missing/undefined variable errors on the "Skinned" view. Minor polish, but figured we'd make note. <a href=""></a></li>
+</ul>
+<strong>= 2.2 =</strong>
+<ul>
+ <li><strong>NEW : Image Only Models</strong> Considering that many of our customers came to Matterport from more traditional photography careers, it isn't surprising that we've received so many requests for an "Image Only" Model.  So, we listened, and now you can <a href="https://wp3dmodels.com/doc/static-image-model/" target="_blank">create a Model</a> with all the WP3D-based bells/whistles but built around a single static image, and doesn't REQUIRE a Matterport Tour.</li>
+ <li><strong>NEW : Zoom Gallery</strong> A new Gallery option has been requested several times in recent months and we've now delivered! Our goal was to improve how "portrait" oriented images were displayed as well as remove any auto-cropping that was/is necessary with the original "Standard Gallery". Starting now, you can choose whichever Gallery option you like best, on a per-Model basis.* </li>
+ <li><strong>NEW : Enhanced Schema Data</strong> After a couple customers inquired we decided to dig in and get additional SEO-rich markup added. Now, every Model that is published via WP3D comes bundled with very accurate Schema data.  This "structured data" format now lives in the code of your WP3D-generated pages and silently boosts your SEO!  <a href="https://developers.google.com/search/docs/guides/intro-structured-data" target="_blank">More info on Schema data, straight from Google »</a></li>
+ <li><strong>NEW : VR Collections Builder</strong> Like most of our updates, this one is also inspired by customer feedback.  Now, with the use of a new <a href="https://wp3dmodels.com/doc/model-vr-collection-attributes/" target="_blank">WP3D shorcode attribute</a>, you can easily generate links to your very own "VR Collections". <a href="https://support.matterport.com/hc/en-us/articles/226474267-How-do-I-share-a-collection-of-VR-Spaces-" target="_blank">This feature is described by Matterport here »</a></li>
+ <li><strong>NEW : Overlay Logo Select</strong> It was pointed out to us that, in some cases, it would be nice to (on the "Skinned" view) be able to show your own Company (set in "Settings") logo as the "Overlay" and yet still provide your client with their branding in the header. Done. :)</li>
+ <li><strong>NEW : Agent Logo & More Info</strong> We've heard that certain MLS's in the US (and elsewhere) sometimes require that an Agent has their brokerage logo/info appear next to the Agent's name.  Now you can do just that, or use these new fields to otherwise supplement Agent data.   </li>
+ <li><strong>NEW : Matterport Parameters</strong> In the past few months, <a href="https://support.matterport.com/hc/en-us/articles/209980967-URL-Parameters" target="_blank">Matterport has released several new Parameters</a> and now each/every one of them can be controlled via WP3D. We think it is especially cool to be able to manage every sophisticated customization that Matterport offers with nothing more than some simple checkboxes and text/number fields.</li>
+ <li><strong>NEW : BETA Showcase Language</strong> Somewhat silently, Matterport has released Showcase label translations for both Spanish & French. While it is entirely possible that this functionality could change or disappear, we've enabled the ability for you to set one of these custom languages for each of you Models, if you prefer.**  </li>
+ <li><strong>NEW : Global Parameters</strong> We feel that certain options need "global" settings (that can still be overriden per-Model) to save the headache of setting the same thing over and over.  Here are the latest "Global Options" additions:  Global Quickstart, Force "No Links", Global Guided Tour Delay, Global Default Highlight Time, BETA Global Showcase Language. </li>
+ <li><strong>FIX : Quickstart + Force Help</strong> Well, we tried to help everyone out with our last release and apply Matterport's "quickstart" option dynamically, wherever possible.  This worked well until we (and many of you) realized that one couldn't use both the "Force Help" option alongside "Quickstart".  So, we've polished this up and "Quickstart" is disabled wherever "Force Help" is enabled.</li>
+ <li><strong>FIX : Avada Namespacing</strong> Wow, a lot of you guys use the Avada theme! We learned this after discovering that a recent Avada update created quite a bug with WP3D Models. Both parties are somewhat to blame here and the fix was relatively easy. We sent out a number of "patched" versions in recent weeks, and the same permanent fix has been applied here. </li>
+ <li><strong>FIX : Overlay Logo Placement</strong> A few versions ago, we introduced the ability to present your own logo overlaid atop the running Matterport Showcase. This has been a huge hit, but we're always needing to pay attention to other Matterport-specific UI elements that are being moved around over time.  We now look for the MP Tour thumbnails and then adjust the overlay logo placement accordingly.</li>
+ <li><strong>FIX : Updated FontAwesome</strong> We're now running the latest version of FontAwesome which includes new icons that work great for "Bathrooms" and "Bedrooms".  There's something of an easter egg in WP3D Models that allows for the use of these icons in your "Property Info" details. <a href="https://wp3dmodels.com/contact/" target="_blank">Contact Us</a> for more information on how to do this (also letting us know that you read this far).</li>
+ <li><strong>FIX : Agent Subtitle</strong> We fixed a little layout bug that sometimes left the Agent subtitle content covered up a bit.  Everyone can now sleep easier. <a href=""></a></li>
+</ul>
+<strong>= 2.1.3 =</strong>
+<ul>
+ <li><strong>NEW : Social "Play" Images</strong> Okay...so we're pretty proud of this one. Once enabled (in <em>Models --&gt; Settings --&gt; Social</em>), your model images can all be supplemented with a "play" icon that will appear when your content is shared on various social networks (Facebook/Twitter/Pinterest). This addition makes your social content much more attractive and "clickable" when viewed from those networks.</li>
+ <li><strong>NEW : Iframe Embed</strong> Alongside our custom (&amp; inherently responsive) WP3D Models Embed code, we have introduced a new option to grab a standard &lt;iframe&gt; embed code as well. Depending on where/how your models are being embedded, this can sometimes be a better option.</li>
+ <li><strong>NEW : Mattertag Link Support</strong> Once Matterport releases the ability for everyone to add links to their Mattertags, WP3D Models content will (more than likely) already be compliant.</li>
+ <li><strong>NEW : Faster Loading</strong> Models that use a "WP3D Intro" are now set up to load much faster. This is auto-enabled for all of your past, present and future Models!</li>
+ <li><strong>NEW : Customizable Fullscreen Copyright Text</strong> You asked for it and now it is possible to customize the "Copyright" text that appears on branded fullscreen Models. You could always change this site-wide, and now this is available on a per-Model basis.</li>
+ <li><strong>NEW : Hide Fullscreen Header Bar</strong> You asked for this as well, and now it's possible to completely hide the black "header bar" that exists on branded fullscreen Models. This too is available on a per-Model basis.</li>
+ <li><strong>NEW : Disclaimer Images</strong> This requires some HTML knowledge (and probably some graphic design sense too), but if you've got the chops you can now include a link (&lt;a&gt;) and/or image (&lt;img&gt;) content into your global Model disclaimer. We're considering this to be a "pro" feature, just FYI.</li>
+ <li><strong>FIX : Google Maps API Fix (Again)</strong> Dear Google, we're really hoping that you've made up your mind re: how you want to manage your Map API keys. :) We've applied your most recent changes and found that, actually, this is much easier than what you had in place mid-summer (2016). On our end, we've trimmed things back to only needing ONE API Key (inside Models --&gt; Settings --&gt; Maps) and generating this single key is much easier now as well. <a href="/doc/google-maps-api-keys/" target="_blank">See our revised documentation for more info</a>.</li>
+ <li><strong>FIX : Matterport API Address Fix</strong> The way in which Matterport presented Model address data changed a bit this last week.  This update "rights the ship" and everything should be working correctly, once again.</li>
+ <li><strong>FIX : Looooong Agent Email Address Fix</strong> We've fixed things up so that lengthy Agent email addresses now look/work better.</li>
+ <li><strong>FIX : Loooong URL Fix</strong> Similar to the Agent email address fix, we've tidied things up and force long URLs to behave as well.</li>
+ <li><strong>FIX : "Skinned" Title Fix</strong> New code has been added to allow for better unique customization of the "Skinned" SEO Title and fix duplication issues that were happening before.</li>
+ <li><strong>FIX : Facebook Image "Too Big" Fix</strong> In some cases, when a LARGE Image Override was used, the "full size" image was being pushed up to Facebook, instead of a trimmed version. As it turns out, Facebook hiccups when an image is too big...all should be better now.</li>
+ <li><strong>ENHANCEMENT : Facebook OG Image "Size" Tag Enhancement</strong> This gets pretty nerdy, but if you don't tell Facebook just how big your "share" image is, they'll hiccup on that too. In this case (w/o providing specific image sizes) it isn't until the 2nd "share" that you actually SEE the shared image. With our new code in place, your first share of a Model should now produce a shiny new "share" image. This is especially cool if you're taking advantage of the new auto "play" button overlay feature (noted as #1 in our "Features" above).</li>
+ <li><strong>FIX : Longer TLD support</strong> With all the new types of domain names, we needed to update what the Contact Form would support when one of these new domains is part of an email address.</li>
+</ul>
+<strong>= 2.1.2 =</strong>
+<ul>
+ <li><strong>NEW : Google Maps API Settings</strong> As of 6/22/16, Google Maps now requires the use of an API key to use their mapping services. This updates adds new fields to include your own <a href="https://wp3dmodels.com/doc/google-maps-api-keys/" target="_blank">custom Google Maps API Keys (Documentation)</a>.</li>
+ <li><strong>NEW : Disclaimer Field Links</strong> You can now add a link to the GLOBAL "Disclaimer" text area content.  Great for always including a (subtle) link back to your company, if you prefer.</li>
+ <li><strong>ENHANCEMENT : Admin Bar Labels</strong> Better labeling & UI of WP3D Models "Views" links found under the "WP3D Models Tools" in the Admin Bar.</li>
+ <li><strong>FIX : Gallery Previous Button</strong> The Previous arrow button now works as expected on Standard/Nobrand Views</li>
+</ul>
+<strong>= 2.1.1 =</strong>
+<ul>
+ <li><strong>FIX : Template Autoplay</strong> In some unique cases, the autoplay parameter was not getting set correctly. Fixed!</li>
+</ul>
+<strong>= 2.1.0 =</strong>
+<ul>
+ <li><strong>NEW : Skinned Video Background</strong> You can now include a video (YouTube-only, for now) to play in the background of your Skinned views! This new option creates a really powerful polish to your "Skinned" view and works really well with subtle looping video that introduces a property. We can't wait to see how people use this new feature. <em>Please send us links of the Models you create!</em></li>
+ <li><strong>NEW : SALE PENDING Flag</strong> We'd like to think that a few of you are cheering right now. By popular demand, we've added a new option for "Sale Pending", in addition to "Sold". Like the "Sold" image, you can also override what is provided with WP3D Models.</li>
+ <li><strong>NEW : Exclude Model From List Views</strong> Do we hear more cheering? You can now selectively "exclude" a particular model from ALL LIST VIEWS (shortcode-generated content). A number of you have noted this need when you have a property/location/tour that you want to keep published, but don't want to publicly promote in your various list pages. You'll find this setting in the sidebar of all Model Edit pages.</li>
+ <li><strong>NEW : Admin List Enhancements</strong> Now, when you view the list of your models inside your Admin, you'll find that we've included your thumbnail image and a new column that lets you quickly see if a Model is "excluded" or not.</li>
+ <li><strong>NEW : Unbranded Video Option</strong> Based on several suggestions for this feature, we've now included a second link for video (both Vimeo &amp; YouTube) that will only be seen on your "Nobrand" views. This option allows all of you savvy video producing pros to add a lot more value to your MLS-friendly views without compromising your branding everywhere else.</li>
+ <li><strong>NEW : Full Matterport Parameter/Option Support</strong> Since our last release, Matterport included a <a href="https://support.matterport.com/hc/en-us/articles/209980967-How-can-I-customize-viewing-of-my-models" target="_blank">number of new "Parameters"</a> that can be manually added to customize how your Model is displayed. We've gone in and integrated each and every one of them to enable each one with a simple checkbox! PLUS, we discovered some really interesting new ones that appear to be undocumented. We've integrated these new options as well and labeled them as "BETA". Upgrade your version today to start customizing how your models are displayed.</li>
+ <li><strong>NEW : Space Preloading</strong> We've built in a way that you can (Desktops only, for now) preload your Matterport Space, making it immediately ready/available once a user clicks the PLAY button. This option exists for all WP3D views where an "Intro" is enabled, as well the "Skinned" view.</li>
+ <li><strong>NEW : Property Info Tabs Limit</strong> By default, we limit the number of "Property Info Tabs" to three, but there's a new filter available now that can be used to increase this amount.</li>
+ <li><strong>NEW : Force Global Branding on Standard Views</strong> We hope you all love the WP3D Models option that allows you to "override" your own branding with that of your client's logos. We think this option makes for a very nice polish and/or upsell to your clients. However, you may feel like you'd prefer to keep YOUR branding intact on all of your "Standard" views. If that's the case, we've added a shiny new "Settings" option that makes this possible.</li>
+ <li><strong>NEW : New Animated "Skinned" Title</strong> We added a nice new animated polish to the "Skinned" view titles.</li>
+ <li><strong>NEW : Global Default View</strong> We've built a number of tools to make it possible to customizing each individual model. However, we're hearing that many of you would like the option to define some presets to certain features, so you don't have to remember to set that value on each new Model. This new feature makes it possible to set you "Default View Link" globally, and you will still have the option of customizing this on a per-model basis.</li>
+ <li><strong>NEW : View-specific Analytics Event Tracking</strong> For those of you interested in Data Analysis (hopefully this is the majority of you), we added a bunch of behind-the-scenes Analytics Event Tracking code. It is now easier than ever to see a breakdown of how users are interacting with each of your Model views. If you're using our recommended <a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" target="_blank">WordPress Analytics Plugin</a>, there's nothing to enable here, it "just works". Or, if you've got your own way of adding Google Analytics code, we've got a shiny new WordPress hook for you to use.</li>
+ <li><strong>NEW : Fullscreen &amp; Embedded "Play Button Only"</strong> Under unique circumstances, there is a need to remove all information from a model, except for the Play Button. This issue has presented itself when a Model is custom embedded into another (client) website that has limited vertical space in which to display the embed. In these (arguably rare) cases, you can now trim up what you present to your client to keep everyone looking their best AND still keep the SEO traffic &amp; data flowing through your site.</li>
+ <li><strong>NEW : Related Models Titles</strong> Hovering over a "Related Model" now displays that Model's Title.</li>
+ <li><strong>ENHANCEMENT : Page/Gallery Loading</strong> We made a few changes that will DRAMATICALLY decrease your page load times, based on how gallery photos are now loaded. This is especially great for mobile users and your own SEO Page Speed ranking for each model.</li>
+ <li><strong>ENHANCEMENT : Gallery Centering</strong> We've adjusted how the gallery loads images and any vertical cropping will now be split between the top &amp; the bottom.</li>
+ <li><strong>ENHANCEMENT : Content Vertical Centering</strong> We polished up how content is vertically centered across all views. Things look/fit much better now across device sizes.</li>
+ <li><strong>ENHANCEMENT : "Nobrand" Related Models Links</strong> If you're on a "nobrand" page with Related Models, the links on those related models point to the "nobrand" views.</li> 	
+ <li><strong>FIX : Agent Photo Cropping</strong> We've polished up how the Agent Photo gets displayed allowing non-square images to be used. However, we still recommend using a square image (at least 300 x 300, in pixels) for the best looking results.</li>
+ <li><strong>FIX : Sticky Override Logo</strong> There was a bug that prevented override logos from being removed....this has been fixed up.</li>
+ <li><strong>FIX : Sticky Override Image</strong> There was a bug that prevented override images from being removed....this has been fixed up.</li>
+ <li><strong>FIX : Phone Number Formatting</strong> In some cases, phone numbers weren't being properly formatted....now they are...even international ones!</li>
+ <li><strong>FIX : Phone Number Labels</strong> A few of you noted that the "Mobile" label shouldn't always be present if only ONE number was entered. We agree! This has been fixed up.</li>
+ <li><strong>FIX : Canonical Link Fix</strong> Default Link now becomes Canonical across all views. Much better for SEO.</li>
+</ul>
+<strong>= 2.0.4 =</strong>
+<ul>
+<li><strong>NEW : Added simple ability to remove other plugin (simple) actions from WP3D generated "views".</strong></li>
+<li><strong>FIX : Primary Content box placement - moved up & better description.</strong></li>
+<li><strong>FIX : Updated "model" Custom Post type such that no "archive" page is generated.</strong></li>
+<li><strong>FIX : Misc CSS layout fixes.</strong></li>
+<li><strong>FIX : Fullscreen Nobrand "More Info" button now ALWAYS goes to "nobrand" view.</strong></li>
+<li><strong>FIX : Added a missing filter to adjust/translate the "skinned" view form submit button text</strong></li>
+<li><strong>FIX : ZIP Download tool updated to adjust for Matterport API changes.</strong></li>
+<li><strong>FIX : Fullscreen Excerpt "More" link fixes.</strong></li>
+<li><strong>FIX : Script DEBUG bugfix</strong></li>
+<li><strong>FIX : Missing email for AOL users (when using an AOL "sent from" email fix.</strong></li>
+<li><strong>FIX : Canonical URL filter fix - applies when the "Default View Link" has been modified.</strong></li>
+</ul>
+<strong>= 2.0.3 =</strong>
+<ul>
+<li><strong>FIX : Misc CSS tweaks for greater theme compatibility.</strong></li>
+<li><strong>FIX : "standard" and "nobrand" view gallery image size fix.</strong></li>
+<li><strong>FIX : "nobrand" footer buffer fix for related models display.</strong></li>
+</ul>
+<strong>= 2.0.2 =</strong>
+<ul>
+<li><strong>FIX : Misc CSS tweaks for greater theme compatibility.</strong></li>
+<li><strong>FIX : Added PHP >= 5.3 requirement</strong></li>
+<li><strong>FIX : Increased "SKINNED" view theme compatibility</strong></li>
+</ul>
+<strong>= 2.0.1 =</strong>
+<ul>
+	<li><strong>NEW : Branding</strong>Since launching WP3D Models in May 2015, the number 1 feature request was for "better branding options".  WP3D v.2 now offers several different options to promote your (agency/photography) company's branding, your client's branding, or both.  You can now upload and globally save your company branding in two different logo sizes.  The "small" logo will be used when space is limited, and the "large" when there's extra space.  Once added, these logos can be applied to various model "views" and will be automatically removed when viewed in the "no brand" (MLS compliant) setting.  Additionally, unique agent/company logos can be added to specific models and model "views".  WP3D Models allows for complete branding customization for you and your scanning clients. More on "branding" below.</li>
+	<li><strong>NEW : Single Page Websites &amp; "Skinned" View</strong>We're constantly looking for ways to help our customers (you) with new ways to upsell your photo/scanning services.  Our new "skinned" view is something we're really proud to unveil.  Now, every model you enter into WP3D Models also comes with a dynamically generated single landing page that is conversion driven.  You can choose to include any/all of the new features (read on) as well as a lead generation email form.  Now, in a matter of minutes (literally) you can whip up a beatiful single page for your client's property and brand it with their logo and contact information.  You can even redirect a custom domain to this page as part of your "package", and YOUR site gets all of the traffic and SEO-rich inbound links.  WIN/WIN!</li>
+	<li><strong>NEW : Matterport Showcase Content Import</strong>Matterport's Showcase 2.0 now includes additional "Public Details" that can be added to each model inside your dashboard at 'my.matterport.com'. With WP3D Models v.2, we look for any attached "public" data (Name, Presented By, Summary, Address, Contact Name, Contact Phone &amp; Contact Email. We even support the brand-new "Formatted" Contact Phone!) and save that information alongside your locally added data.  We're really proud of this feature because you can elect to display this imported data with your WP3D Models, making it even faster to publish your work to your site/domain.  Additionally, your site will get the SEO credit for all of this content!</li>
+	<li><strong>NEW : Auto Mapping</strong>	Related to the "Dashboard Content Import", WP3D Models mapping can now optionally use the address information you've entered inside the 'my.matterport.com' dasboard.  We'll retrieve the address you enter and check if for validity, if you've elected to show a map AND the address checks out....auto mapping!</li>
+	<li><strong>NEW : WP3D Intro</strong>Related to "branding", we've introduced a really exciting new way to publish your models.  In addition to the traditional &lt;iframe&gt; embed, we've added something called an "WP3D Intro". If selected, your published model will not automatically load the model content (speeding up page load times) and will be replaced with your model's cover image, your (optional) logo, a large "play" button, and a (optional) "intro statement".  All logos/text can be customized and is visible until a user clicks on the button.  At that point, the "Intro" fades away and the Matterport model loads in its place.  This functionality is available on ALL model views (even 'no brand') as well as all "embedded" views.  You can even elect to keep a small version of your logo visible in the lower left corner of the "live" model.</li>
+	<li><strong>NEW : Sharing</strong>After all of your hard work in creating these models, we want the world to see them!  Every view now has the option to include built in sharing buttons for the major social networks (Facebook, Twitter, LinkedIn, Pinterest, Google+).</li>
+	<li><strong>NEW : Website &amp; Social Networks</strong>Also related to "branding", new global options exist that allow you to connect your company/brand's social network profiles.  When added, "Connect" icons are displayed on your embedded models, driving traffic back to your site as well as to your social networks.  Every time one of your models is embedded elsewhere on the web, you also get a direct link back to your web properties. Potential clients no longer have to search for who created the amazing 3D content they're viewing.</li>
+	<li><strong>NEW : Single Shortcode</strong>Each model you add to your site also comes with its own single "shortcode".  This means that you can embed a model into another model's WYSIWYG content, allow for simple groupings of more than one model.  This can be especially valuable for promoting homes/properties where the layout of buildings required separate/unique scans. Alternatively, maybe you'd like to create a blog post or a static page that includes a certain model content, now it's easy to include that (responsive) content anywhere in your site.</li>
+	<li><strong>NEW : ZIP Images Tool</strong>The free/public WP3D Models ZIP tool (found at 'http://zip.wp3dmodels.com') has now been integrated into the WP3D Models plugin core.  Using this tool, it takes just seconds to download all snapshot images that you've saved inside your 'my.matterport.com' dashboard. Additionally, you can use these images to create your own still gallery (more on that below) or maybe send them off to your client as part of your "package" deliverables.</li>
+	<li><strong>NEW : Agents Data</strong>Another huge new feature for v.2 is the new 'Agents' tool. Now, you can add information about various Agents that you work with regularly, or those who are part of your brokerage.  Once added to the site, you can optionally attach them (up to 3) to any model you've added.  If one of these agents changes their phone number, image, etc...you can edit in one place and automatically update all instances.  Additionally, you can elect to have the lead generation form (part of the "skinned" single page website view) send to ALL of the attached agents.</li>
+	<li><strong>NEW : Lead Generation Form (w/ support for Gravity Forms/Contact Form 7/Ninja Forms)</strong>The lead generation feature has already been mentioned, but deserves a bit more explanation.  Currently available as part of the "skinned" view, the lead generation form can be enabled and customized regarding where it sends TO. Available options are: a) imported Matterport 'Contact Email', 'Custom Email', or 'Associated Agent Contacts'.  Additionally, the contact form can be completely replaced using another WordPress "form" plugin shortcode.  Custom styles are already provided for the 3rd party form solution 'Gravity Forms'. Support/styling is also provided for "Contact Form 7" and "Ninja Forms" when supplementary styling plugins are installed/activated.</li>
+	<li><strong>NEW : "SOLD" Option</strong>Models can now be marked as "Sold" and will be rendered with a "Sold" corner flap graphic. This image can be replaced to match your site's styling in the WP3D Models Setting screen...or replaced with a translated version for non-english installations.</li>
+	<li><strong>NEW : Photo Gallery</strong>Models can now be supplemented with a photo gallery. This highly requested feature is now part of WP3D Models and can be managed under the "Media" tab, when entering a model.  Additionally, there is full (responsive) support for image captions.  No DSLR/still images?  No problem! You can create your own gallery of images using Matterport's dashboard snapshots and the built-in WP3D ZIP Images tool (mentioned above).</li>
+	<li><strong>NEW : Video Support (YouTube + Vimeo)</strong>Simply enable and copy/paste the URL to either a YouTube or Vimeo video (also found under the "Media" tab).  Your model page (standard, nobrand, or skinned views) will display your fully responsive video at full width.</li>
+	<li><strong>NEW : Floorplan Images</strong>Similar to the Photo Gallery feature, you can now include 2D floorplan images alongside your model.  Enable this feature, then upload images. Each added floorplan will generate a clickable thumbnail image that opens a larger version.  Similar to the gallery, images can be title, captioned and re-ordered.  Lastly, a direct link to the FULL resolution image is also created, making it possible for users to easily save/download a full size floorplan image to their machine.</li>
+	<li><strong>NEW : Property Info Details</strong>A new "Property Info" feature makes it possible to call out specific property attributes.  This is perfect for use when noting the number of bedrooms, or bathrooms, or square footage, etc.  Additionally, it is possible to include any of the FontAwesome icons to supplement these attributes with a visual element.</li>
+	<li><strong>NEW : Property Text Tabs</strong> This new tool was developed to offer a solution for more verbose explanations/descriptions of property features.  Property content can be organized into multiple "tabs" and can include standard WordPress WYSIWYG content (including shortcodes!).  These can be used for video (wrapped in &lt;div class="embed-container"&gt;&lt;/div&gt;) too..or for showing another Matterport model.</li>
+	<li><strong>NEW : Customization &amp; Localization via Filters</strong> By default, the WordPress Plugin API offers a robust customization solution using something called "hooks".  WP3D Models takes full advantage of these options and includes new "filters" for every text label that is displayed on the "front end" pages that are created.  This makes it possible for you to change any default text that ships with the plugin ("Map", "View", etc.) as well as a way to quickly swap out english (EN) text for translations in your own language.  WP3D Models was also constructed with full translation capabilities in mind (both front and back end), but using filters can make it much faster to swap out key terms, vs building a full translation package.</li>
+	<li><strong>NEW : "Views" &amp; Prettier Permalinks</strong>One of the core strengths/features of WP3D Models is its ability to offer multiple "views" of the same content.  This allows you to send the most appropriate "view" link to different audiences.  A "nobrand" view can be send to your MLS and a "skinned" view to your client (for use as a single-page website).  You can continue to promot your "standard" view on your company site as part of your own marketing to others who may be interested in your services.  Each "view" includes a "cononical" link back to your "standard" link, so as to protect your SEO rankings and avoid multiple indexing of your content across various "views". Lastly, v.2 improves upon the URL structure where "ugly" URL parameters are converted to "pretty" permalinks.</li>
+	<li><strong>NEW : Action Hooks</strong>Related to the "Customization &amp; Localization via Filters" feature, new "action" hooks have been created to allow for extreme customization of the list/map/shortcode pages via the WordPress Plugin API.</li>
+	<li><strong>NEW : Auto Mobile Fullscreen (w/o redirecting to Matterport Address)</strong>Many WP3D Models v.1 users requested that a solution be created to prevent users from being redirected to a Matterport URL when viewing models on mobile devices.  Version 2 introduces a solution to this issue whereby keeping the user on your site and filling the available mobile viewport to simulate a fullscreen display on smaller screens.</li>
+	<li><strong>NEW : Custom List View Map Options</strong>New options exist to customize the type of map displayed on list view (shortcode) pages.</li>
+	<li><strong>NEW : Custom Map Marker Color</strong>The default Google map pin has been replaced with a marker whose color can be customized to match a site's branding.</li>
+	<li><strong>NEW : FOV Option (Non "Skinned" &amp; non "Introed")</strong>On non-skinned pages without an "Intro", a new option exists to shorten the height of the embedded model resulting in a widened field of view display of that model's content.</li>
+	<li><strong>NEW : Force "Help" Content</strong>Every model (&amp; model view) can now be flagged to "force" the built-in Matterport help content.</li>
+	<li><strong>NEW : Unrealer Smart Gallery Integration</strong>In cooperation with UNREALER, you can now supplement your models with "Smart Galleries".  This UNREALER based content can be quickly added to act as your model's photo gallery and floorplan content.</li>
+	<li><strong>NEW : Footer Disclaimer Text</strong>We heard from a few users indicating a need for the ability to add custom "disclaimer" text beneath added model content.  If added, this (fully optional) content will appear on all model "views".</li>
+	<li><strong>FIXED : Duplicate Model Images</strong>No more duplicate images on each model save</li>
+</ul>
+<strong>= 1.1.7 =</strong>
+<ul>
+	<li><strong>NEW</strong> : Option to disable the "multifloor" navigation.</li>
+	<li><strong>NEW</strong> : "Autoplay" and "Disable Multifloor" options now work in fullscreen, nobrand, and EMBED modes.</li>
+	<li><strong>NEW</strong> : Custom CSS tab in "Settings". Meant to be used for quick fixes...anything "bigger" really should go into one's theme stylesheet.</li>
+	<li><strong>NEW</strong> : Character Limit Count for Yoast/SEO Twitter description field = Not a WP3D enhancement, but a nicelittle addition to add value to the Yoast/SEO plugin - This one's for you Dan.</li>
+	<li><strong>FIX</strong> : nobrand template map zoom bug</li>
+	<li><strong>FIX</strong> : updated public 'extend_http_request_timeout' function</li>
+	<li><strong>FIX</strong> : css bug with 2-column layouts on desktops, when models are being filtered</li>
+	<li><strong>FIX</strong> : css image size bug (certain themes)</li>
+	<li><strong>FIX</strong> : css margin bug on fullscreen body (certain themes)</li>
+	<li><strong>FIX</strong> : default "list view" h3 styling</li>
+	<li><strong>FIX</strong> :  header position for single models to offset specific themes that position this absolutely</li>
+	<li><strong>FIX</strong> : WPSEO meta box priority activation bug</li>
+	<li><strong>UPDATED</strong> : .gitignore</li>
+</ul>
+<strong>= 1.1.6 =</strong>
+<ul>
+	<li><b>NEW</b> : CUSTOM EMBED CODES! Now you can share a custom model embed code of your own models and track their traffic! Each code is unique to your model and multiple embeds can be placed on a page. These custom codes will return FULLY RESPONSIVE embeds as well, no more fiddling around with custom CSS hacks and long embeds. You'll find that our embed code is short and oh-so-SWEET. When logged into your site, look for your auto-generated code link up in the top WordPress "Admin Bar" of any Model page under the "WP3D Model Links +" menu item. You'll find this on the admin side and/or front-end of your site.</li>
+	<li><b>NEW</b> : CUSTOMIZE THE SINGLE MAP! Based of customer feedback, you can now globally customize the zoom level (0-18) and map type (Roadmap, Satellite, Hybrid, Terrain) for your model single pages. You'll find these new options on your WP3D Settings page.</li>
+	<li><b>NEW</b> : ADMIN MODEL NOTES! We added this smaller feature as a way that non-public "notes" can be associated with a model, but not published. Can be used for anything!</li>
+	<li><b>ENHANCEMENT</b> : Better error handling (if image retrieval fails) and increased timeout duration (in case MP is slow to respond - BETTER THAN IN 1.1.5)</li>
+	<li><b>ENHANCEMENT</b> : Tightened up INLINE CSS to take up less room in the document head.</li>
+	<li><b>FIX</b> : Bugfix for a situation that might happen if a required plugin (ACF) isn't installed correctly.</li>
+</ul>
+<strong>= 1.1.5 =</strong>
+<ul>
+	<li><b>ENHANCEMENT</b> : Better error handling (if image retrieval fails) and increased timeout duration (in case MP is slow to respond)</li>
+</ul>
+<strong>= 1.1.4 =</strong>
+<ul>
+	<li><b>HOTFIX</b> : Found a couple more stray bugs...fixed here.</li>
+</ul>
+<strong>= 1.1.3 =</strong>
+<ul>
+	<li><b>NEW</b> : Added "Advanced" tab to the models page &amp; the option to override the auto-generated model link, in case a user wants to point a specific model "VIEW" button (in the a shortcode-created list) to somewhere else. This "advanced" option was requested by a real estate agent who wanted the option of linking to a (separately managed) property detail page on their site. A nice way to selectively customize option...but to be used with great CARE!</li>
+	<li><b>NEW</b> : Moved WP3D Models Settings to live under the "Models" in the Admin, instead of "Settings".</li>
+	<li><b>ENHANCEMENT</b> : Added Quick Links to other model views ("No Brand" and "Full Screen"), from ADMIN.</li>
+	<li><b>ENHANCEMENT</b> : Added a 'canonical' link tag for "nobrand" and "fullscreen" options...Better SEO.</li>
+	<li><b>FIX</b> : Corrected "Remove WP3D Models" option to work on the Single model page.</li>
+	<li><b>FIX</b> : Added margin: 0 to "full screen" option (specific theme fix).</li>
+	<li><b>FIX</b> : Addressed EXTRA title tag on fullscreen option, on some themes.</li>
+	<li><b>FIX</b> : Add a check to prevent using the 'wp3d-models' shortcode more than once on the same page.</li>
+</ul>
+<strong>= 1.1.2 =</strong>
+<ul>
+	<li>Map Scroll Fix (JS)</li>
+	<li>Enabling New Autoplay feature (unique to each model)</li>
+</ul>
+<strong>= 1.1.1 =</strong>
+<ul>
+	<li>Additional CSS tweaks to mobile mapping</li>
+	<li>Bugfix on new Frontend Admin Bar Links</li>
+</ul>
+<strong>= 1.1 =</strong>
+<ul>
+	<li>Initial Public Release</li>
+	<li>Added quick link from Plugin Menu to Online Documentation</li>
+	<li>Readme Fixes</li>
+	<li>Shortcode rename (3d-models --&gt; wp3d-models).  Old one will still work.</li>
+	<li>Option to hide WP3D Branding</li>
+	<li>Misc. CSS Fixes</li>
+	<li>New Frontend Admin Bar Links (Admin Bar is forced to show for users who can 'manage options')</li>
+	<li>Other misc. frontend styling cleanups</li>
+</ul>
+<strong>= 1.0.9 =</strong>
+<ul>
+	<li>Bugfixes and testing auto update</li>
+</ul>
+<strong>= 1.0.8 =</strong>
+<ul>
+	<li>Massive update incorporating hundreds of changes, renames, etc. Final Beta.</li>
+</ul>
+<!-- = 1.0.7 = * 2015-30-04 * Dozens of bug fixes and PHP warning resolutions + Licensing Integration = 1.0.6 = * 2015-01-04 * Removing WPThumb and storing MP images locally without it = 1.0.5 = * 2015-31-03 * New "Full Screen" model view &amp; several CSS Fixes = 1.0.4 = * 2015-27-03 * Map Pin Toggles now auto-update when results are filtered = 1.0.3 = * 2015-24-03 * Bigger Map Only = 1.0.2 = * 2015-24-03 * Misc bug fixing * New Mapping Features = 1.0.1 = * 2015-23-03 * Misc bug fixing = 1.0 = * 2015-20-03 * Initial BETA release -->

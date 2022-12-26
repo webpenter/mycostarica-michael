@@ -1,0 +1,12 @@
+# Uploads
+/uploads/
+
+# Log files
+ debug.log
+
+# htaccess
+/.htaccess
+# backup-dup
+/backups-dup-lite/
+# upgrade
+/upgrade/

@@ -1,0 +1,124 @@
+/* SWIPER GALLERY
+==================================================*/
+#gallery {
+	position: relative;
+	padding-bottom: 56.25%;
+
+	.swiper-container {
+	    position: absolute;
+		width: 100%;
+		height: 100%;
+		
+		.swiper-slide {
+			background-size: cover;
+			overflow: hidden;
+			background-position: 50% 50%;			
+
+			    span.wp3d-caption-open {
+				    display: block;
+					position: absolute;
+					top: 1em;
+					right: 1em;
+					text-shadow: 0 0 2px rgba(0,0,0,.5);
+					z-index: 11;
+					cursor: pointer;
+					font-size: 2.3em;
+					
+					&:hover {
+						color: #111111;
+					}
+			    }				
+				
+				div.wp3d-gallery-caption {
+					margin: 0;
+				    position: absolute;
+				    z-index: 9;
+				    opacity: 0;
+				    top: 100%; 
+				    left: 0;
+				    right: 0;
+				    bottom: 0;
+				    width: 100%;
+				    padding: 4em;
+				    background-color: rgba(0,0,0,0.8);
+				    transition:ease-in-out .3s;
+				    
+				    &.enabled {
+				    	opacity: 1;
+				    	top: 0;
+				    }
+				    
+				    p {
+				    	font-size: 2em;
+					    line-height: 1.1;
+					    color: #FFFFFF;
+					    text-align: center;	
+					    text-shadow: 0 0 2px rgba(0,0,0,.5);
+					    
+						&.caption-title {
+							text-transform: uppercase;
+							margin-bottom: 0.6em;
+						}					    
+				    }
+				    
+					span.wp3d-caption-close {
+						display: block;
+						position: absolute;
+						top: 1em;
+						right: 1em;
+						text-shadow: 0 0 2px rgba(0,0,0,.5);
+						z-index: 11;
+						cursor: pointer;
+						font-size: 2.3em;
+					}				    
+
+				}	
+
+		}
+		
+		.swiper-pagination {
+			display: block;
+		}		
+	}	
+}
+
+/* #Media Queries
+==================================================*/
+
+@media (max-width:767px) {
+    
+	#gallery {
+	
+		.swiper-container {
+			
+			.swiper-slide {
+				
+				span.wp3d-caption-open {
+					top: 0.75em;
+					right: 0.75em;
+					font-size: 1.3em;
+				} 
+				
+				div.wp3d-gallery-caption {
+					
+					span.wp3d-caption-close {
+						top: 0.75em;
+						right: 0.75em;
+						font-size: 1.3em;
+					}			
+					
+					p {
+						font-size: 14px;
+					}
+				}
+			}
+			
+			.swiper-pagination {
+				display: none; // hiding the dots on small devices
+			}			
+				
+		}
+		
+	}
+	
+} // end of 767 media query	

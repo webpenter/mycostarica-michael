@@ -1,0 +1,31 @@
+/* ==========================================================================
+   WP3D MODELS - 'CROSBY' SKIN RTL STYLES
+   ========================================================================== */
+
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+.rtl {
+
+    #wp3d-gallery,
+    #wp3d-zoom-gallery {
+      direction: ltr;
+    }
+    
+    #property-info ul.property-info {
+        padding-right: 0;
+        margin-right: 0;
+        
+        li {
+            text-align: right;
+        }
+        
+        li em {
+            float: left;
+        }
+    }
+
+}
+
+

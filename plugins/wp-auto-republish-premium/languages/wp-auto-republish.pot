@@ -1,0 +1,3188 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Auto Republish\n"
+"POT-Creation-Date: 2021-03-21 11:02+0530\n"
+"PO-Revision-Date: 2019-01-05 23:35+0530\n"
+"Last-Translator: \n"
+"Language-Team: Sayan Datta <hello@sayandatta.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-auto-republish.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:26
+msgid "Enable this if you want to auto republish old posts of your blog."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:33
+msgid "5 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:34
+msgid "10 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:35
+msgid "15 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:36
+msgid "20 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:37
+msgid "30 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:38
+msgid "45 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:39
+msgid "1 hour"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:40
+msgid "2 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:41
+msgid "4 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:42
+msgid "6 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:43
+msgid "8 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:44
+msgid "12 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:45
+msgid "24 hours (1 day)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:46
+msgid "48 hours (2 days)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:47
+msgid "72 hours (3 days)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:48
+msgid "120 hours (5 days)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:49
+msgid "168 hours (7 days)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:50
+msgid "Custom Interval (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:64
+msgid "Select post republish interval between two post republish event."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:71
+msgid ""
+"You can set custom interval in minutes between two republish event from "
+"here. Minimum is 5 minutes."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:78
+msgid "No Randomness (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:79
+msgid "Upto 5 Minutes (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:80
+msgid "Upto 10 Minutes (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:81
+msgid "Upto 15 Minutes (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:82
+msgid "Upto 20 Minutes (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:83
+msgid "Upto 30 Minutes (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:84
+msgid "Upto 45 Minutes (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:85
+#: includes/Core/Premium/Rules/RuleMetaBox.php:359
+msgid "Upto 1 hour"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:86
+#: includes/Core/Premium/Rules/RuleMetaBox.php:360
+msgid "Upto 2 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:87
+#: includes/Core/Premium/Rules/RuleMetaBox.php:361
+msgid "Upto 4 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:88
+#: includes/Core/Premium/Rules/RuleMetaBox.php:362
+msgid "Upto 6 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:89
+msgid "Upto 8 hours (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:90
+msgid "Upto 12 hours (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:91
+msgid "Upto 24 hours (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:105
+msgid ""
+"Select randomness interval from here which will be added to minimum "
+"republish interval."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:112
+msgid "First Position"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:113
+msgid "Second Position"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:122
+msgid ""
+"Select the position of republished post (choosing the 2nd position will "
+"leave the most recent post in 1st place)."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:129
+#: includes/Api/Callbacks/ManagerCallbacks.php:444
+#: includes/Core/Premium/PostMetaBox.php:328
+#: includes/Core/Premium/Rules/RuleMetaBox.php:379 templates/admin.php:232
+msgid "Republish Post"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:130
+#: includes/Api/Callbacks/ManagerCallbacks.php:445
+#: includes/Core/Premium/PostMetaBox.php:329
+#: includes/Core/Premium/Rules/RuleMetaBox.php:380 templates/admin.php:233
+msgid "Duplicate Post"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:139
+msgid "Select the post republish action from here. Default is Republish Post."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:146
+msgid "You can set here the number of Posts to be Republished at a time."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:153
+msgid "Set the starting time period for republish old posts from here."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:160
+msgid "Set the ending time period for republish old posts from here."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:167
+#: includes/Base/Enqueue.php:182 includes/Helpers/Premium/GetMetaData.php:188
+msgid "Sunday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:168
+#: includes/Base/Enqueue.php:183 includes/Helpers/Premium/GetMetaData.php:189
+msgid "Monday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:169
+#: includes/Base/Enqueue.php:184 includes/Helpers/Premium/GetMetaData.php:190
+msgid "Tuesday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:170
+#: includes/Base/Enqueue.php:185 includes/Helpers/Premium/GetMetaData.php:191
+msgid "Wednesday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:171
+#: includes/Base/Enqueue.php:186 includes/Helpers/Premium/GetMetaData.php:192
+msgid "Thursday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:172
+#: includes/Base/Enqueue.php:187 includes/Helpers/Premium/GetMetaData.php:193
+msgid "Friday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:173
+#: includes/Base/Enqueue.php:188 includes/Helpers/Premium/GetMetaData.php:194
+msgid "Saturday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:182
+msgid "Select the weekdays when you want to republish old posts."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:189
+msgid "Disable"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:190
+msgid "Before Content"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:191
+msgid "After Content"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:200
+msgid ""
+"Select how you want to show original published date of the post on frontend."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:207
+msgid "Message before original published date of the post on frontend."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:221
+msgid "Select post types on which you want to display original published date."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:228
+msgid "No Age Limit (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:229
+msgid "1 Day (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:230
+msgid "2 Days (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:231
+msgid "3 Days (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:232
+msgid "5 Days (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:233
+msgid "7 Days (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:234
+msgid "10 Days (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:235
+msgid "14 Days (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:236
+msgid "21 Days (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:237
+msgid "28 Days (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:238
+msgid "30 Days (1 month)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:239
+msgid "45 Days (1.5 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:240
+msgid "60 Days (2 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:241
+msgid "90 Days (3 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:242
+msgid "120 Days (4 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:243
+msgid "180 Days (6 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:244
+msgid "240 Days (8 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:245
+msgid "365 Days (1 year)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:246
+msgid "730 Days (2 years)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:247
+msgid "1095 Days (3 years)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:248
+msgid "1460 Days (4 Years) (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:249
+msgid "1825 Days (5 Years) (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:250
+msgid "2190 Days (6 Years) (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:251
+msgid "2555 Days (7 Years) (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:252
+msgid "2920 Days (8 Years) (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:253
+msgid "3285 Days (9 Years) (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:254
+msgid "3650 Days (10 Years) (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:255
+msgid "Custom Age Limit (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:269
+msgid ""
+"Select the post age for republishing. Post actually published before this, "
+"will be available for republish."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:271
+#, php-format
+msgid "Posts published before %s are eligible for republish."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:272
+msgid "All published posts will be eligible for republish."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:278
+msgid "Set the custom post republishing age (in days) from here."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:285
+#: includes/Core/Premium/Rules/RuleMetaBox.php:316
+msgid "Select Old Post First (ASC)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:286
+#: includes/Core/Premium/Rules/RuleMetaBox.php:317
+msgid "Select New Post First (DESC)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:295
+msgid "Select the method of getting old posts from database."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:302
+#: includes/Core/Premium/ExtendedActions.php:124
+#: includes/Core/Premium/Rules/RuleMetaBox.php:331
+msgid "Post Date"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:303
+msgid "Post ID (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:304
+msgid "Post Author (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:305
+msgid "Post Title (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:306
+msgid "Random Selection (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:307
+msgid "Comment Count (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:308
+msgid "Relevance (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:309
+msgid "Menu Order (Premium)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:323
+msgid ""
+"Select the method of getting old posts order by parameter. Default: Post Date"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:330
+msgid "A Specific Date"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:331
+msgid "Last Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:340
+msgid ""
+"Select the method by which you want to exclude posts before a particular "
+"time interval or date."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:349
+msgid ""
+"Select the Republish range date from here. Republish process will ignore all "
+"posts originally published before this date."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:350
+msgid "Posts published after this date are eligible for republish."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:356
+msgid ""
+"Select the Republish range interval from here. Republish process will ignore "
+"all posts originally published before this interval."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:357
+msgid ""
+"All posts published before the specified minutes from now are eligible for "
+"republish."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:370
+msgid "Select post types of which you want to republish."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:377
+msgid "Ignoring all Taxonomies"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:378
+msgid "Including Taxonomies"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:379
+msgid "Excluding Taxonomies"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:388
+msgid ""
+"Select how you want to include or exclude a post category from republishing. "
+"If you choose excluding, selected taxonomies will be ignored and vice-versa."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:413
+msgid ""
+"Select taxonimies which you want to include to republishing or exclude from "
+"republishing."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:421
+msgid ""
+"Write the post IDs which you want to select forcefully (when you select "
+"excluding) or want to not select forcefully (when you select including)."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:429
+msgid ""
+"Enable this if you want to enable automatic republish of single posts of "
+"your blog. It adds a metabox on post edit screen from where you can set "
+"custom republish events."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:437
+msgid ""
+"Enable this if you want to enable republish links on post edit rows and post "
+"edit screen."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:454
+msgid ""
+"Select the single post republish action from here. Default is Republish Post."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:468
+msgid ""
+"Select post types on which you want to enable single republish. It will add "
+"a metabox to the all posts from which you can configure the single "
+"republishing for a particular post."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:482
+msgid "Set user roles who can access the metabox and post row links."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:490
+msgid ""
+"Enable this if you want to enable auto post publish to Facebook upon post "
+"republishing."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:498
+msgid ""
+"Enable this if you want to add Open Graph metadata to your site head section "
+"and other social networks use this data when your pages are shared. If you "
+"are using any SEO plugin, you can leave this option as disable."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:505
+msgid "Post as Link"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:506
+#: includes/Api/Callbacks/ManagerCallbacks.php:680
+msgid "Post as Status"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:507
+#: includes/Api/Callbacks/ManagerCallbacks.php:681
+msgid "Post as Status & Link"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:516
+msgid "Select Facebook post template type from here."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:523
+#: includes/Api/Callbacks/ManagerCallbacks.php:610
+#: includes/Api/Callbacks/ManagerCallbacks.php:697
+msgid "Post Content"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:524
+#: includes/Api/Callbacks/ManagerCallbacks.php:611
+#: includes/Api/Callbacks/ManagerCallbacks.php:698
+msgid "Post Excerpt"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:533
+msgid ""
+"Select Facebook post template content source from here. %post_content% will "
+"be replaced by this in the below field."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:542
+#: includes/Api/Callbacks/ManagerCallbacks.php:629
+#: includes/Api/Callbacks/ManagerCallbacks.php:716
+msgid "Use these tags:"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:542
+#: includes/Api/Callbacks/ManagerCallbacks.php:629
+#: includes/Api/Callbacks/ManagerCallbacks.php:716
+msgid "Charecter limit:"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:556
+msgid "Select post types of which you want to share on Facebook as post."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:578
+msgid ""
+"Select taxonomies of which you want to post them on Facebook as hashtags."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:586
+msgid ""
+"Enable this if you want to enable auto tweet publish to Twitter upon post "
+"republishing."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:593
+msgid "Show Thumbnail"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:594
+msgid "Don't Show Thumbnail"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:603
+msgid "Enable or Disable Tweet Post Thumbnail form here."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:620
+msgid ""
+"Select Twitter tweet template content source from here. %post_content% tag "
+"will be replaced by this in the below field."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:643
+msgid "Select post types of which you want to share on Twitter as tweet."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:665
+msgid ""
+"Select taxonomies of which you want to post them on Twitter as hashtags."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:673
+msgid ""
+"Enable this if you want to enable auto post publish to Linkedin upon post "
+"republishing."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:690
+msgid "Select Linkedin post template type from here."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:707
+msgid ""
+"Select Linkedin post template content source from here. %post_content% will "
+"be replaced by this in the below field."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:730
+msgid "Select post types of which you want to share on Linkedin as post."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:752
+msgid ""
+"Select taxonomies of which you want to post them on Linkedin as hashtags."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:760
+msgid "Enable this if you want to get republish info as an email notification."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:768
+msgid "Enable this if you want to auto send email to the original post author."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:788
+msgid "Select post types for which you want to enable email notification."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:794
+#, php-format
+msgid "%1$s A %2$s - %3$s has been republished on your blog."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:798
+msgid "Use these tags into email subject - "
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:816
+msgid "Use these tags into email body - "
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:816
+msgid "Email body supports HTML."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:824
+msgid ""
+"Enable this if you do not want to trigger actual WordPress post publish "
+"event. It may stop any social media share or other actions which occur every "
+"time when a new post is actually published."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:832
+msgid "Enable this if you do not want to use republish log history."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:840
+msgid ""
+"Enable this if you want to remove all the plugin data from your website."
+msgstr ""
+
+#: includes/Base/Actions.php:41
+msgid "Settings"
+msgstr ""
+
+#: includes/Base/Actions.php:54
+msgid "Try Premium"
+msgstr ""
+
+#: includes/Base/Actions.php:56
+msgid "Support"
+msgstr ""
+
+#: includes/Base/Actions.php:57
+msgid "Donate"
+msgstr ""
+
+#: includes/Base/Actions.php:59 templates/admin.php:41
+msgid "Documentation"
+msgstr ""
+
+#: includes/Base/AdminNotice.php:50
+#, php-format
+msgid ""
+"WARNING: As it seems that your permalinks structure contains date, please "
+"use %1$s instead of %2$s respectively."
+msgstr ""
+
+#: includes/Base/AdminNotice.php:58
+#, php-format
+msgid ""
+"WARNING: As it seems that your permalinks structure contains date, please do "
+"not use %s plugin (see FAQ no. 9) or upgrade to the Premium version."
+msgstr ""
+
+#: includes/Base/AdminNotice.php:67
+#, php-format
+msgid ""
+"Your version of PHP is below the minimum version of PHP required by %s "
+"plugin. Please contact your host and request that your version be upgraded "
+"to 5.6 or later."
+msgstr ""
+
+#: includes/Base/AdminNotice.php:74
+#, php-format
+msgid ""
+"Thanks for installing %1$s v%2$s plugin. Click <a href=\"%3$s\">here</a> to "
+"configure plugin settings."
+msgstr ""
+
+#: includes/Base/AdminNotice.php:94
+msgid "Post republished and rescheduled (if any)."
+msgstr ""
+
+#: includes/Base/DonateNotice.php:51
+msgid ""
+"Hey, I noticed you've been using WP Auto Republish for more than 2 week – "
+"that’s awesome! If you like WP Auto Republish and you are satisfied with the "
+"plugin, isn’t that worth a coffee or two? Please consider donating. "
+"Donations help me to continue support and development of this free plugin! "
+"Thank you very much!"
+msgstr ""
+
+#: includes/Base/DonateNotice.php:52
+msgid "Donate Now"
+msgstr ""
+
+#: includes/Base/DonateNotice.php:53
+msgid "I already donated"
+msgstr ""
+
+#: includes/Base/DonateNotice.php:54 includes/Base/RatingNotice.php:54
+msgid "Nope&#44; maybe later"
+msgstr ""
+
+#: includes/Base/DonateNotice.php:55
+msgid "I don't want to donate"
+msgstr ""
+
+#: includes/Base/Enqueue.php:87
+msgid "Select weekdays (required)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:88 includes/Base/Enqueue.php:151
+msgid "Select post types (required)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:89
+msgid "Select user roles (required)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:90
+msgid "Select taxonomies"
+msgstr ""
+
+#: includes/Base/Enqueue.php:91
+msgid "Enter post or page or custom post ids (comma separated)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:92
+msgid "Saving..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:93
+msgid "Please wait while we are saving your settings..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:94
+msgid "Done!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:95
+msgid "Error!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:96
+#: includes/Core/Premium/Social/FacebookShare.php:242
+#: includes/Core/Premium/Social/LinkedinShare.php:185
+#: includes/Core/Premium/Social/TwitterShare.php:183
+msgid "Deleting..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:97
+msgid "Warning!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:98
+msgid "Please wait while we are processing your request..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:99 includes/Core/Premium/Social/TumblrShare.php:21
+#: templates/admin.php:66 templates/admin.php:77 templates/admin.php:88
+#: templates/admin.php:99 templates/admin.php:111 templates/admin.php:122
+#: templates/admin.php:148 templates/admin.php:174 templates/admin.php:200
+#: templates/admin.php:212
+msgid "Save Settings"
+msgstr ""
+
+#: includes/Base/Enqueue.php:100
+msgid "Settings Saved Successfully!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:101
+msgid "Are you sure that you want to delete this item?"
+msgstr ""
+
+#: includes/Base/Enqueue.php:102
+msgid "Invalid Nonce! We could not process your request."
+msgstr ""
+
+#: includes/Base/Enqueue.php:103
+msgid "OK"
+msgstr ""
+
+#: includes/Base/Enqueue.php:104
+msgid "Confirm"
+msgstr ""
+
+#: includes/Base/Enqueue.php:105
+msgid "Cancel"
+msgstr ""
+
+#: includes/Base/Enqueue.php:106
+msgid "Close"
+msgstr ""
+
+#: includes/Base/Enqueue.php:107
+msgid "Paste Here"
+msgstr ""
+
+#: includes/Base/Enqueue.php:108
+msgid "Import"
+msgstr ""
+
+#: includes/Base/Enqueue.php:109
+msgid "Importing..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:110
+msgid "Please wait..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:111 templates/admin.php:226
+msgid "No logs found."
+msgstr ""
+
+#: includes/Base/Enqueue.php:112 templates/admin.php:257
+msgid "Filter"
+msgstr ""
+
+#: includes/Base/Enqueue.php:113
+#: includes/Core/Premium/Social/FacebookShare.php:244
+#: includes/Core/Premium/Social/LinkedinShare.php:187
+#: includes/Core/Premium/Social/TwitterShare.php:185
+msgid "Activating..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:114
+#: includes/Core/Premium/Social/FacebookShare.php:245
+#: includes/Core/Premium/Social/LinkedinShare.php:188
+#: includes/Core/Premium/Social/TwitterShare.php:186
+msgid "Deactivating..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:115
+#: includes/Core/Premium/Social/FacebookShare.php:244
+#: includes/Core/Premium/Social/LinkedinShare.php:187
+#: includes/Core/Premium/Social/TwitterShare.php:185
+msgid "Activate"
+msgstr ""
+
+#: includes/Base/Enqueue.php:116
+#: includes/Core/Premium/Social/FacebookShare.php:245
+#: includes/Core/Premium/Social/LinkedinShare.php:188
+#: includes/Core/Premium/Social/TwitterShare.php:186
+msgid "Deactivate"
+msgstr ""
+
+#: includes/Base/Enqueue.php:117
+#: includes/Core/Premium/Social/FacebookShare.php:239
+#: includes/Core/Premium/Social/FacebookShare.php:244
+#: includes/Core/Premium/Social/LinkedinShare.php:182
+#: includes/Core/Premium/Social/LinkedinShare.php:187
+#: includes/Core/Premium/Social/TwitterShare.php:180
+#: includes/Core/Premium/Social/TwitterShare.php:185
+msgid "Enabled"
+msgstr ""
+
+#: includes/Base/Enqueue.php:118
+#: includes/Core/Premium/Social/FacebookShare.php:239
+#: includes/Core/Premium/Social/FacebookShare.php:245
+#: includes/Core/Premium/Social/LinkedinShare.php:182
+#: includes/Core/Premium/Social/LinkedinShare.php:188
+#: includes/Core/Premium/Social/TwitterShare.php:180
+#: includes/Core/Premium/Social/TwitterShare.php:186
+msgid "Disabled"
+msgstr ""
+
+#: includes/Base/Enqueue.php:119
+msgid "Verify"
+msgstr ""
+
+#: includes/Base/Enqueue.php:120
+msgid "New Account"
+msgstr ""
+
+#: includes/Base/Enqueue.php:121
+msgid "Please enter the required data first!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:122
+msgid "Edit Template"
+msgstr ""
+
+#: includes/Base/Enqueue.php:123
+msgid "Save Template"
+msgstr ""
+
+#: includes/Base/Enqueue.php:124
+msgid "Charecter limit"
+msgstr ""
+
+#: includes/Base/Enqueue.php:125
+msgid "Use this tags"
+msgstr ""
+
+#: includes/Base/Enqueue.php:152
+msgid "Select taxonomies (leave blank to republish all posts)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:153 includes/Helpers/Premium/GetMetaData.php:67
+msgid "Set on"
+msgstr ""
+
+#: includes/Base/Enqueue.php:154 includes/Core/Premium/PostMetaBox.php:138
+#: includes/Core/Premium/Rules/RuleMetaBox.php:113
+msgid "Not set yet"
+msgstr ""
+
+#: includes/Base/Enqueue.php:155 includes/Core/Premium/PostMetaBox.php:132
+#: includes/Core/Premium/Rules/RuleMetaBox.php:107
+msgid "Republish disabled"
+msgstr ""
+
+#: includes/Base/Enqueue.php:156 includes/Helpers/Premium/GetMetaData.php:87
+#: includes/Helpers/Premium/GetMetaData.php:98
+msgid "on"
+msgstr ""
+
+#: includes/Base/Enqueue.php:157
+msgid "on all days"
+msgstr ""
+
+#: includes/Base/Enqueue.php:158
+msgid "weeks"
+msgstr ""
+
+#: includes/Base/Enqueue.php:159 includes/Core/Premium/PostMetaBox.php:180
+#: includes/Core/Premium/Rules/RuleMetaBox.php:155
+#: includes/Helpers/Premium/GetMetaData.php:97
+msgid "Weekly"
+msgstr ""
+
+#: includes/Base/Enqueue.php:160
+msgid "months"
+msgstr ""
+
+#: includes/Base/Enqueue.php:161 includes/Core/Premium/PostMetaBox.php:181
+#: includes/Core/Premium/Rules/RuleMetaBox.php:156
+#: includes/Helpers/Premium/GetMetaData.php:86
+msgid "Monthly"
+msgstr ""
+
+#: includes/Base/Enqueue.php:162
+msgid "years"
+msgstr ""
+
+#: includes/Base/Enqueue.php:163 includes/Core/Premium/PostMetaBox.php:182
+#: includes/Core/Premium/Rules/RuleMetaBox.php:157
+#: includes/Helpers/Premium/GetMetaData.php:78
+msgid "Yearly"
+msgstr ""
+
+#: includes/Base/Enqueue.php:164
+msgid "days"
+msgstr ""
+
+#: includes/Base/Enqueue.php:165 includes/Core/Premium/PostMetaBox.php:179
+#: includes/Core/Premium/Rules/RuleMetaBox.php:154
+#: includes/Helpers/Premium/GetMetaData.php:107
+msgid "Daily"
+msgstr ""
+
+#: includes/Base/Enqueue.php:166
+msgid "hours"
+msgstr ""
+
+#: includes/Base/Enqueue.php:167 includes/Core/Premium/PostMetaBox.php:178
+#: includes/Core/Premium/Rules/RuleMetaBox.php:153
+#: includes/Helpers/Premium/GetMetaData.php:115
+msgid "Hourly"
+msgstr ""
+
+#: includes/Base/Enqueue.php:168
+msgid "minutes"
+msgstr ""
+
+#: includes/Base/Enqueue.php:169 includes/Helpers/Premium/GetMetaData.php:124
+msgid "In Minutes"
+msgstr ""
+
+#: includes/Base/Enqueue.php:170 includes/Helpers/Premium/GetMetaData.php:136
+msgid "Next republish schedule is on"
+msgstr ""
+
+#: includes/Base/Enqueue.php:171
+msgid "on day"
+msgstr ""
+
+#: includes/Base/Enqueue.php:172
+msgid "on the"
+msgstr ""
+
+#: includes/Base/Enqueue.php:173
+msgid "of"
+msgstr ""
+
+#: includes/Base/Enqueue.php:174
+msgid "of all months"
+msgstr ""
+
+#: includes/Base/Enqueue.php:175 includes/Helpers/Premium/GetMetaData.php:130
+msgid "times"
+msgstr ""
+
+#: includes/Base/Enqueue.php:176 includes/Helpers/Premium/GetMetaData.php:132
+msgid "until"
+msgstr ""
+
+#: includes/Base/Enqueue.php:177
+msgid "Enter Post Titles (use backspace or drag & drop to edit)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:178
+msgid "Set every"
+msgstr ""
+
+#: includes/Base/Enqueue.php:179 includes/Helpers/Premium/GetMetaData.php:77
+#: includes/Helpers/Premium/GetMetaData.php:85
+#: includes/Helpers/Premium/GetMetaData.php:96
+#: includes/Helpers/Premium/GetMetaData.php:106
+#: includes/Helpers/Premium/GetMetaData.php:114
+#: includes/Helpers/Premium/GetMetaData.php:123
+msgid "Set"
+msgstr ""
+
+#: includes/Base/Enqueue.php:180
+msgid "Clear"
+msgstr ""
+
+#: includes/Base/Enqueue.php:191
+msgid "first"
+msgstr ""
+
+#: includes/Base/Enqueue.php:192
+msgid "second"
+msgstr ""
+
+#: includes/Base/Enqueue.php:193
+msgid "third"
+msgstr ""
+
+#: includes/Base/Enqueue.php:194
+msgid "fourth"
+msgstr ""
+
+#: includes/Base/Enqueue.php:195
+msgid "fifth"
+msgstr ""
+
+#: includes/Base/PluginTools.php:80
+msgid ""
+"<strong>Settings import failed:</strong> Please upload a valid .json file to "
+"import settings in this website."
+msgstr ""
+
+#: includes/Base/PluginTools.php:84
+msgid ""
+"<strong>Settings import failed:</strong> Please upload a file to import."
+msgstr ""
+
+#: includes/Base/PluginTools.php:189
+msgid "Success! Plugin Settings has been imported successfully."
+msgstr ""
+
+#: includes/Base/RatingNotice.php:51
+msgid ""
+"Hey, I noticed you've been using WP Auto Republish for more than 1 week – "
+"that’s awesome! Could you please do me a BIG favor and give it a <strong>5-"
+"star</strong> rating on WordPress? Just to help us spread the word and boost "
+"my motivation."
+msgstr ""
+
+#: includes/Base/RatingNotice.php:52
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: includes/Base/RatingNotice.php:53
+msgid "I already did"
+msgstr ""
+
+#: includes/Base/RatingNotice.php:55
+msgid "I don't want to rate"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:81
+msgid "Republished"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:82
+msgid "First Published"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:86
+#, php-format
+msgid "Not republished yet.<br />Published %s ago<br />"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:106
+msgid "Original"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:108
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:119
+#: includes/Core/Premium/Rules/ColumnView.php:64
+msgid "Republication starts in"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:126
+#: includes/Core/Premium/Rules/ColumnView.php:71
+msgid "Republication in queue"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:131
+#: includes/Core/Premium/Rules/ColumnView.php:76
+msgid "Next Republish"
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:140
+msgid "Post is not published."
+msgstr ""
+
+#: includes/Core/Premium/AdminColumnView.php:156
+msgid "Last Republished"
+msgstr ""
+
+#: includes/Core/Premium/DashboardWidget.php:43
+msgid "Republish Activity"
+msgstr ""
+
+#: includes/Core/Premium/DashboardWidget.php:66
+#: includes/Core/Premium/EventLogger.php:212
+msgid "Global Republish Scheduled"
+msgstr ""
+
+#: includes/Core/Premium/DashboardWidget.php:92
+#: includes/Core/Premium/EventLogger.php:215
+msgid "Single Republish Scheduled"
+msgstr ""
+
+#: includes/Core/Premium/DashboardWidget.php:117
+msgid "No activity yet!"
+msgstr ""
+
+#: includes/Core/Premium/DashboardWidget.php:146
+msgid "Today"
+msgstr ""
+
+#: includes/Core/Premium/DashboardWidget.php:148
+msgid "Tomorrow"
+msgstr ""
+
+#. translators: Date and time format for recent posts on the dashboard, from a different calendar year, see https://www.php.net/date
+#: includes/Core/Premium/DashboardWidget.php:151
+msgid "M jS Y"
+msgstr ""
+
+#. translators: Date and time format for recent posts on the dashboard, see https://www.php.net/date
+#: includes/Core/Premium/DashboardWidget.php:154
+msgid "M jS"
+msgstr ""
+
+#. translators: 1: Relative date, 2: Time.
+#: includes/Core/Premium/DashboardWidget.php:164
+#, php-format
+msgctxt "dashboard"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: %s: Post title.
+#: includes/Core/Premium/DashboardWidget.php:167
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/Core/Premium/DashboardWidget.php:197
+msgid "No. of Posts to Display on this Widget"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:92
+#: includes/Core/Premium/EventLogger.php:139
+#: includes/Core/Premium/EventLogger.php:234
+#: includes/Core/Premium/Social/FacebookShare.php:227
+#: includes/Core/Premium/Social/FacebookShare.php:253
+#: includes/Core/Premium/Social/LinkedinShare.php:171
+#: includes/Core/Premium/Social/LinkedinShare.php:196
+#: includes/Core/Premium/Social/TwitterShare.php:168
+#: includes/Core/Premium/Social/TwitterShare.php:194
+msgid "Timestamp"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:93
+#: includes/Core/Premium/EventLogger.php:140
+#: includes/Core/Premium/EventLogger.php:235
+#: includes/Core/Premium/Social/FacebookShare.php:229
+#: includes/Core/Premium/Social/FacebookShare.php:255
+msgid "Type"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:94
+#: includes/Core/Premium/EventLogger.php:141
+#: includes/Core/Premium/EventLogger.php:236
+msgid "ID"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:95
+#: includes/Core/Premium/EventLogger.php:142
+#: includes/Core/Premium/EventLogger.php:237
+#: includes/Core/Premium/ExtendedActions.php:127
+#: includes/Core/Premium/Rules/RuleMetaBox.php:334
+msgid "Post Title"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:96
+#: includes/Core/Premium/EventLogger.php:143
+#: includes/Core/Premium/EventLogger.php:238
+msgid "Action Log"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:97
+#: includes/Core/Premium/EventLogger.php:144
+#: includes/Core/Premium/EventLogger.php:239
+#: includes/Core/Premium/Social/FacebookShare.php:231
+#: includes/Core/Premium/Social/FacebookShare.php:257
+#: includes/Core/Premium/Social/LinkedinShare.php:174
+#: includes/Core/Premium/Social/LinkedinShare.php:199
+#: includes/Core/Premium/Social/TwitterShare.php:172
+#: includes/Core/Premium/Social/TwitterShare.php:198
+msgid "Status"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:167
+msgid "No logs found against this query."
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:185
+msgid "Post Republished"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:188
+msgid "Post Duplicated"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:191
+msgid "Republish Event Triggered"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:194
+msgid "Single Cache Cleared"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:197
+msgid "Email Notification Sent"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:200
+msgid "Facebook Page Share Initiated"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:203
+msgid "Facebook Group Share Initiated"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:206
+msgid "Twitter Profile Share Initiated"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:209
+msgid "Linkedin Profile Share Initiated"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:218
+msgid "Rewrite Republish Processed"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:221
+msgid "Event Logged"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:227
+msgid "Success"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:227
+msgid "Error"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:229
+msgid "Pending"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:233
+msgid "Flag"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:240
+#: includes/Core/Premium/Social/FacebookShare.php:233
+#: includes/Core/Premium/Social/FacebookShare.php:259
+#: includes/Core/Premium/Social/LinkedinShare.php:176
+#: includes/Core/Premium/Social/LinkedinShare.php:201
+#: includes/Core/Premium/Social/TwitterShare.php:174
+#: includes/Core/Premium/Social/TwitterShare.php:200 templates/admin.php:229
+msgid "Action"
+msgstr ""
+
+#: includes/Core/Premium/EventLogger.php:240
+msgid "Delete this item"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:41
+msgid "Custom Interval"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:56
+msgid "No Age Limit"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:57
+msgid "1 Day"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:58
+msgid "2 Days"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:59
+msgid "3 Days"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:60
+msgid "5 Days"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:61
+msgid "7 Days"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:62
+msgid "10 Days"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:63
+msgid "14 Days"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:64
+msgid "21 Days"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:65
+msgid "28 Days"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:66
+msgid "1460 Days (4 Years)"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:67
+msgid "1825 Days (5 Years)"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:68
+msgid "2190 Days (6 Years)"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:69
+msgid "2555 Days (7 Years)"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:70
+msgid "2920 Days (8 Years)"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:71
+msgid "3285 Days (9 Years)"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:72
+msgid "3650 Days (10 Years)"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:81
+msgid "Custom Age Limit"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:96
+#: includes/Core/Premium/Rules/RuleMetaBox.php:352
+msgid "No Randomness"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:97
+#: includes/Core/Premium/Rules/RuleMetaBox.php:353
+msgid "Upto 5 Minutes"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:98
+#: includes/Core/Premium/Rules/RuleMetaBox.php:354
+msgid "Upto 10 Minutes"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:99
+#: includes/Core/Premium/Rules/RuleMetaBox.php:355
+msgid "Upto 15 Minutes"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:100
+#: includes/Core/Premium/Rules/RuleMetaBox.php:356
+msgid "Upto 20 Minutes"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:101
+#: includes/Core/Premium/Rules/RuleMetaBox.php:357
+msgid "Upto 30 Minutes"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:102
+#: includes/Core/Premium/Rules/RuleMetaBox.php:358
+msgid "Upto 45 Minutes"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:103
+#: includes/Core/Premium/Rules/RuleMetaBox.php:363
+msgid "Upto 8 hours"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:104
+#: includes/Core/Premium/Rules/RuleMetaBox.php:364
+msgid "Upto 12 hours"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:105
+#: includes/Core/Premium/Rules/RuleMetaBox.php:365
+msgid "Upto 24 hours"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:125
+#: includes/Core/Premium/Rules/RuleMetaBox.php:332
+msgid "Post ID"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:126
+#: includes/Core/Premium/Rules/RuleMetaBox.php:333
+msgid "Post Author"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:128
+#: includes/Core/Premium/Rules/RuleMetaBox.php:335
+msgid "Random Selection"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:129
+#: includes/Core/Premium/Rules/RuleMetaBox.php:336
+msgid "Comment Count"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:130
+#: includes/Core/Premium/Rules/RuleMetaBox.php:337
+msgid "Relevance"
+msgstr ""
+
+#: includes/Core/Premium/ExtendedActions.php:131
+#: includes/Core/Premium/Rules/RuleMetaBox.php:338
+msgid "Menu Order"
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:59
+#: includes/Core/Premium/OneClickRepublish.php:61
+#: includes/Core/Premium/OneClickRepublish.php:64
+#, php-format
+msgid "Republish %s now"
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:59
+#: includes/Core/Premium/PostMetaBox.php:388
+msgid "Republish"
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:61
+#: includes/Core/Premium/PostMetaBox.php:392
+msgid "Clone"
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:64
+#: includes/Core/Premium/PostMetaBox.php:396
+msgid "Rewrite"
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:67
+#, php-format
+msgid "Share %s now"
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:67
+msgid "Share"
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:151
+#, php-format
+msgid "Republish Scheduled (#%s)"
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:244
+#, php-format
+msgid "%s republished and rescheduled (if any)."
+msgstr ""
+
+#: includes/Core/Premium/OneClickRepublish.php:249
+#, php-format
+msgid "%s sucessfully shared to the Social Media(s)."
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:60
+#: includes/Core/Premium/Rules/RuleMetaBox.php:47
+msgid "Republish Settings"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:61
+msgid "Republish Info"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:121
+#: includes/Core/Premium/Rules/RuleMetaBox.php:97
+msgid "Schedule"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:142
+#: includes/Core/Premium/Rules/RuleMetaBox.php:116
+msgid "at"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:142
+#, php-format
+msgid "Republish will occur after this time within %s minutes."
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:147
+#: includes/Core/Premium/Rules/RuleMetaBox.php:122
+msgid "Republish after"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:150
+#: includes/Core/Premium/Rules/RuleMetaBox.php:125
+msgid "Days"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:151
+#: includes/Core/Premium/Rules/RuleMetaBox.php:126
+msgid "Weeks"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:152
+#: includes/Core/Premium/Rules/RuleMetaBox.php:127
+msgid "Months"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:153
+#: includes/Core/Premium/Rules/RuleMetaBox.php:128
+msgid "Years"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:160
+#: includes/Core/Premium/Rules/RuleMetaBox.php:135
+msgid "Republish on"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:168
+#: includes/Core/Premium/Rules/RuleMetaBox.php:143
+msgid "Enable Repeat Republishing"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:174
+#: includes/Core/Premium/Rules/RuleMetaBox.php:149
+msgid "Repeats"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:177
+#: includes/Core/Premium/Rules/RuleMetaBox.php:152
+msgid "Minutes"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:190
+#: includes/Core/Premium/Rules/RuleMetaBox.php:165
+msgid "Repeat Every"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:204
+#: includes/Core/Premium/Rules/RuleMetaBox.php:179
+msgid "Repeat On"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:206
+#: includes/Core/Premium/Rules/RuleMetaBox.php:181
+msgid "January"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:207
+#: includes/Core/Premium/Rules/RuleMetaBox.php:182
+msgid "February"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:208
+#: includes/Core/Premium/Rules/RuleMetaBox.php:183
+msgid "March"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:209
+#: includes/Core/Premium/Rules/RuleMetaBox.php:184
+msgid "April"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:210
+#: includes/Core/Premium/Rules/RuleMetaBox.php:185
+msgid "May"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:211
+#: includes/Core/Premium/Rules/RuleMetaBox.php:186
+msgid "June"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:212
+#: includes/Core/Premium/Rules/RuleMetaBox.php:187
+msgid "July"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:213
+#: includes/Core/Premium/Rules/RuleMetaBox.php:188
+msgid "August"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:214
+#: includes/Core/Premium/Rules/RuleMetaBox.php:189
+msgid "September"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:215
+#: includes/Core/Premium/Rules/RuleMetaBox.php:190
+msgid "October"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:216
+#: includes/Core/Premium/Rules/RuleMetaBox.php:191
+msgid "November"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:217
+#: includes/Core/Premium/Rules/RuleMetaBox.php:192
+msgid "December"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:224
+#: includes/Core/Premium/Rules/RuleMetaBox.php:199
+msgid "Repeat By"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:226
+#: includes/Core/Premium/Rules/RuleMetaBox.php:201
+msgid "Day of the month"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:227
+#: includes/Core/Premium/Rules/RuleMetaBox.php:202
+msgid "Day of the week"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:234
+#: includes/Core/Premium/Rules/RuleMetaBox.php:209
+msgid "Starts On"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:242
+#: includes/Core/Premium/Rules/RuleMetaBox.php:217
+msgid "Ends On"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:245
+#: includes/Core/Premium/Rules/RuleMetaBox.php:220
+msgid "Never"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:248
+#: includes/Core/Premium/Rules/RuleMetaBox.php:223
+msgid "After"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:249
+#: includes/Core/Premium/Rules/RuleMetaBox.php:224
+msgid "occurences"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:252
+#: includes/Core/Premium/Rules/RuleMetaBox.php:227
+msgid "Specific Date"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:262
+#: includes/Core/Premium/Rules/RuleMetaBox.php:237
+msgid "Set Status"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:266
+#: includes/Core/Premium/PostMetaBox.php:327
+msgid "Default"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:270
+msgid "at the time of last repeated republish"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:277
+#: includes/Core/Premium/Rules/RuleMetaBox.php:249
+msgid "Time Range"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:279
+#: includes/Core/Premium/Rules/RuleMetaBox.php:251
+msgid "Starts at"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:280
+#: includes/Core/Premium/PostMetaBox.php:283
+#: includes/Core/Premium/Rules/RuleMetaBox.php:252
+#: includes/Core/Premium/Rules/RuleMetaBox.php:255
+msgid "No Restriction"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:282
+#: includes/Core/Premium/Rules/RuleMetaBox.php:254
+msgid "Ends at"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:294
+msgid "Disable Single Republishing"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:305
+msgid "Re-Publish Titles"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:308
+#: includes/Core/Premium/PostMetaBox.php:317
+msgid "Yes"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:309
+#: includes/Core/Premium/PostMetaBox.php:318
+msgid "No"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:314
+msgid "Update Post URL"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:324
+msgid "Republish Action"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:337
+msgid "Enter the New Post Titles"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:375
+#, php-format
+msgid "Republished %s time(s)"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:380
+msgid "Not republished yet"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:402
+msgid "Instant Social Media Share"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:422
+#: includes/Core/Premium/PostMetaBox.php:430
+msgid "Last Republished:"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:440
+msgid "Exclude from Auto Republishing"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:448
+msgid "Hide Original Publish Info"
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:456
+msgid "Disable Notification for this "
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:464
+msgid "Disable Facebook Share for this "
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:472
+msgid "Disable Twitter Share for this "
+msgstr ""
+
+#: includes/Core/Premium/PostMetaBox.php:480
+msgid "Disable Linkedin Share for this "
+msgstr ""
+
+#: includes/Core/Premium/PostStatusFilters.php:88
+msgid "Republish Pending"
+msgstr ""
+
+#: includes/Core/Premium/Rules/ColumnView.php:83
+msgid "Rule is not scheduled."
+msgstr ""
+
+#: includes/Core/Premium/Rules/ColumnView.php:87
+msgid "Rule is not published."
+msgstr ""
+
+#: includes/Core/Premium/Rules/ColumnView.php:103
+msgid "Republish Scheduled"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:42
+msgctxt "Post Type General Name"
+msgid "Republish Rules"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:43
+msgctxt "Post Type Singular Name"
+msgid "Republish Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:44
+#: includes/Core/Premium/Rules/PostType.php:49
+msgid "Republish Rules"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:45
+#: includes/Core/Premium/Rules/PostType.php:72
+msgid "Republish Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:46
+msgid "Rule Archives"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:47
+msgid "Rule Attributes"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:48
+msgid "Parent Rule:"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:50
+msgid "Add New Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:51
+msgid "Add New"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:52
+msgid "New Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:53
+msgid "Edit Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:54
+msgid "Update Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:55
+msgid "View Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:56
+msgid "View Rules"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:57
+msgid "Search Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:58
+msgid "Not found"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:59
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:60
+msgid "Featured Image"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:61
+msgid "Set featured image"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:62
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:63
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:64
+msgid "Insert into rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:65
+msgid "Uploaded to this rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:66
+msgid "Rules list"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:67
+msgid "Rules list navigation"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:68
+msgid "Filter rules list"
+msgstr ""
+
+#: includes/Core/Premium/Rules/PostType.php:73
+msgid "This Post Type create custom Republish Rules."
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:240
+msgid "Published"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:241
+msgid "Un-Published"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:242
+msgid "of this Rule at the time of last rule run"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:266
+msgid "Disable this Republish Rule"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:276
+msgid "Select Post Types that you want to be Republished"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:290
+msgid "Select Post / Page / Custom Post Types Taxonomies"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:314
+msgid "Select Published Posts Order"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:329
+msgid "Select Published Posts Order by"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:350
+msgid "New Date Time Randomness"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:377
+msgid "Post Auto Republish Action"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:392
+msgid "Post Republish Eligibility Age (in days)"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:393
+msgid "180 (leave blank for no limit)"
+msgstr ""
+
+#: includes/Core/Premium/Rules/RuleMetaBox.php:398
+msgid "No. of Posts to be Republished at a Time"
+msgstr ""
+
+#: includes/Core/Premium/Social/FacebookShare.php:81
+msgid "Error: Wrong App ID or App Secret!"
+msgstr ""
+
+#: includes/Core/Premium/Social/FacebookShare.php:228
+#: includes/Core/Premium/Social/FacebookShare.php:254
+#: includes/Core/Premium/Social/LinkedinShare.php:172
+#: includes/Core/Premium/Social/LinkedinShare.php:197
+msgid "Account Name"
+msgstr ""
+
+#: includes/Core/Premium/Social/FacebookShare.php:230
+#: includes/Core/Premium/Social/FacebookShare.php:256
+#: includes/Core/Premium/Social/LinkedinShare.php:173
+#: includes/Core/Premium/Social/LinkedinShare.php:198
+#: includes/Core/Premium/Social/TwitterShare.php:171
+#: includes/Core/Premium/Social/TwitterShare.php:197
+msgid "Added By"
+msgstr ""
+
+#: includes/Core/Premium/Social/FacebookShare.php:232
+#: includes/Core/Premium/Social/FacebookShare.php:258
+#: includes/Core/Premium/Social/LinkedinShare.php:175
+#: includes/Core/Premium/Social/LinkedinShare.php:200
+#: includes/Core/Premium/Social/TwitterShare.php:173
+#: includes/Core/Premium/Social/TwitterShare.php:199
+msgid "Template"
+msgstr ""
+
+#: includes/Core/Premium/Social/FacebookShare.php:242
+#, php-format
+msgid "It will delete this Facebook %1$s: %2$s. Do you want to continue?"
+msgstr ""
+
+#: includes/Core/Premium/Social/FacebookShare.php:242
+#: includes/Core/Premium/Social/LinkedinShare.php:185
+#: includes/Core/Premium/Social/TwitterShare.php:183
+msgid "Delete"
+msgstr ""
+
+#: includes/Core/Premium/Social/FacebookShare.php:247
+#: includes/Core/Premium/Social/LinkedinShare.php:190
+#: includes/Core/Premium/Social/TwitterShare.php:188
+msgid "View / Edit Template"
+msgstr ""
+
+#: includes/Core/Premium/Social/FacebookShare.php:250
+#: includes/Core/Premium/Social/LinkedinShare.php:193
+#: includes/Core/Premium/Social/TwitterShare.php:191
+msgid "Token Expired"
+msgstr ""
+
+#: includes/Core/Premium/Social/LinkedinShare.php:82
+#: includes/Core/Premium/Social/TwitterShare.php:79
+msgid "Error: Wrong App ID or App Secret or Check you Callback URL!"
+msgstr ""
+
+#: includes/Core/Premium/Social/LinkedinShare.php:185
+#, php-format
+msgid "It will delete this Linkedin Account: %s. Do you want to continue?"
+msgstr ""
+
+#: includes/Core/Premium/Social/LinkedinShare.php:325
+#, php-format
+msgid "Error Code: %s"
+msgstr ""
+
+#: includes/Core/Premium/Social/SocialActions.php:178
+#, php-format
+msgid "Success! Your %s Account(s) added successfully."
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:16 templates/admin.php:169
+msgid "Tumblr Settings"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:22 templates/admin.php:123
+#: templates/admin.php:149 templates/admin.php:175
+msgid "Processing..."
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:22 templates/admin.php:123
+#: templates/admin.php:149 templates/admin.php:175
+msgid "Add New / Re-Authorize Account"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:22 templates/admin.php:123
+#: templates/admin.php:149 templates/admin.php:175
+msgid "Success!"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:22 templates/admin.php:123
+#: templates/admin.php:149 templates/admin.php:175 templates/admin.php:257
+msgid "Error: Invalid Nonce!"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:25 templates/admin.php:152
+#: templates/admin.php:178
+msgid ""
+"It will delete all authorized active Twitter accounts and you have to "
+"reauthorize all your accounts again. Do you want to continue?"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:25 templates/admin.php:152
+#: templates/admin.php:178
+msgid "Success! All Twitter Accounts deleted successfully!"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:25 templates/admin.php:126
+#: templates/admin.php:152 templates/admin.php:178
+msgid "Delete All Accounts"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:31 templates/admin.php:158
+msgid "Callback URL:"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:32 templates/admin.php:159
+msgid "Copy and Paste it in your Twitter App Callback URL field."
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:33 templates/admin.php:186
+msgid "Enter OAuth Consumer Key:"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:34 templates/admin.php:187
+msgid "Enter Secret Key:"
+msgstr ""
+
+#: includes/Core/Premium/Social/TumblrShare.php:35 templates/admin.php:136
+#: templates/admin.php:162 templates/admin.php:188
+#, php-format
+msgid "You can find all of your credentials %1$shere%2$s."
+msgstr ""
+
+#: includes/Core/Premium/Social/TwitterShare.php:169
+#: includes/Core/Premium/Social/TwitterShare.php:195
+msgid "Name"
+msgstr ""
+
+#: includes/Core/Premium/Social/TwitterShare.php:170
+#: includes/Core/Premium/Social/TwitterShare.php:196
+msgid "Handle"
+msgstr ""
+
+#: includes/Core/Premium/Social/TwitterShare.php:183
+#, php-format
+msgid "It will delete this Twitter Account: %s. Do you want to continue?"
+msgstr ""
+
+#: includes/Core/Premium/Social/TwitterShare.php:334
+#, php-format
+msgid "Twitter API Connection Problem. Reason: %1$s Error Code: %2$s"
+msgstr ""
+
+#: includes/Helpers/Ajax.php:42
+msgid "Error: Nonce verification failed!"
+msgstr ""
+
+#: includes/Helpers/Ajax.php:62
+msgid "Error: Requested actions failed!"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:63
+msgid "Set today"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:65
+#, php-format
+msgid "%1$s <strong>%2$s</strong>"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:65
+msgid "Was set on"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:78
+#, php-format
+msgid "every %s years"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:86
+#, php-format
+msgid "every %s months"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:88
+msgid "Day "
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:88
+msgid "the "
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:89
+msgid "All Months"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:97
+#, php-format
+msgid "every %s weeks"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:107
+#, php-format
+msgid "every %s days"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:115
+#, php-format
+msgid "every %s hours"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:124
+#, php-format
+msgid "every %s minutes"
+msgstr ""
+
+#: includes/Helpers/Premium/GetMetaData.php:142
+#, php-format
+msgid "Republish %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/Pages/Dashboard.php:70 includes/Pages/Dashboard.php:80
+msgid "WP Auto Republish"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:81
+msgid "Auto Republish"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:160
+msgid "Enable Auto Republishing?"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:161
+msgid "Run Republish Process in Every:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:162
+msgid "New Date Time Randomness:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:163
+msgid "Republish Post to Position:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:164
+msgid "Start Time for Republishing:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:165
+msgid "End Time for Republishing:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:166
+msgid "Select Weekdays to Republish:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:169
+msgid "Show Original Publication Date:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:170
+msgid "Original Publication Message:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:173
+msgid "Post Republish Eligibility Age:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:174
+msgid "Select Published Posts Order:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:175
+msgid "Select Published Posts Order by:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:178
+msgid "Select Post Type(s) to Republish:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:179
+msgid "Auto Republish Old Posts by:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:180
+msgid "Select Post Type(s) Taxonomies:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:181
+msgid "Override Taxonomies Filtering for these Specified Post Types:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:184
+msgid "Delete Plugin Data on Uninstall?"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:190
+msgid "Custom Interval (in minutes):"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:194
+msgid "Post Auto Republish Action:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:195
+msgid "No. of Posts to be Republished:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:199
+msgid "Select Post Type(s) to Display:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:203
+msgid "Enable Individual Republishing:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:204
+msgid "Enable One Click Republishing:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:205
+msgid "Single Post Republish Action:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:206
+msgid "Enable Republish Options on:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:207
+msgid "Allow Republish for User Roles:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:211
+msgid "Enter Custom Age (in days):"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:215
+msgid "Exclude Posts Published Before:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:216
+msgid "Specific Date to Exclude Posts:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:217
+msgid "Enter Time Interval (in minutes):"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:221
+msgid "Enable Auto Email Notification?"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:222
+msgid "Send Notification to Post Author?"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:223
+msgid "Set List of Email Recipient(s):"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:224
+msgid "Enable Email for Post Types:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:225
+msgid "Notification Email Subject:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:226
+msgid "Notification Email Message Body:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:230
+msgid "Enable Auto Facebook Share:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:231
+msgid "Add Facebook Meta to Header:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:232
+msgid "Facebook Post Default Content:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:233 includes/Pages/Dashboard.php:251
+msgid "Content Source for Post:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:234
+msgid "Facebook Share / Post Template:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:235 includes/Pages/Dashboard.php:244
+#: includes/Pages/Dashboard.php:253
+msgid "Enable Share for Post Type(s):"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:236 includes/Pages/Dashboard.php:254
+msgid "Post Taxonomies as Hashtags:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:240
+msgid "Enable Auto Twitter Share:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:241
+msgid "Post Default Thumbnail Posting:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:242
+msgid "Content Source for Tweet:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:243
+msgid "Twitter Share / Tweet Template:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:245
+msgid "Tweet Taxonomies as Hashtags:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:249
+msgid "Enable Auto Linkedin Share:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:250
+msgid "Linkedin Post Default Content:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:252
+msgid "Linkedin Share / Post Template:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:258
+msgid "Disable Republish Log History:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:259
+msgid "Disable Actual Publishing Event:"
+msgstr ""
+
+#: templates/admin.php:15
+msgid ""
+"This plugin helps to revive old posts by resetting the publish date to the "
+"current date."
+msgstr ""
+
+#: templates/admin.php:18
+msgid "Share on Twitter"
+msgstr ""
+
+#: templates/admin.php:19
+msgid "Share on Facebook"
+msgstr ""
+
+#: templates/admin.php:23
+msgid "General"
+msgstr ""
+
+#: templates/admin.php:24
+msgid "Post Options"
+msgstr ""
+
+#: templates/admin.php:26
+msgid "Single Post"
+msgstr ""
+
+#: templates/admin.php:27
+msgid "Social Share"
+msgstr ""
+
+#: templates/admin.php:28
+msgid "Notification"
+msgstr ""
+
+#: templates/admin.php:29
+msgid "Log"
+msgstr ""
+
+#: templates/admin.php:31
+msgid "Tools"
+msgstr ""
+
+#: templates/admin.php:32
+msgid "Help"
+msgstr ""
+
+#: templates/admin.php:36
+msgid "Free Premium Trial"
+msgstr ""
+
+#: templates/admin.php:39
+msgid "Upgrade"
+msgstr ""
+
+#: templates/admin.php:48 templates/admin.php:117
+msgid "Facebook Settings"
+msgstr ""
+
+#: templates/admin.php:49 templates/admin.php:143
+msgid "Twitter Settings"
+msgstr ""
+
+#: templates/admin.php:50
+msgid "Linkedin Settings"
+msgstr ""
+
+#: templates/admin.php:56
+msgid "Configure Settings"
+msgstr ""
+
+#: templates/admin.php:60
+#, php-format
+msgid "Last Run: %s"
+msgstr ""
+
+#: templates/admin.php:72
+msgid "Display Settings"
+msgstr ""
+
+#: templates/admin.php:83
+msgid "Old Posts Settings"
+msgstr ""
+
+#: templates/admin.php:94
+msgid "Post Types Settings"
+msgstr ""
+
+#: templates/admin.php:106
+msgid "Single Republish Settings"
+msgstr ""
+
+#: templates/admin.php:126
+msgid ""
+"It will delete all authorized active Facebook accounts and you have to "
+"reauthorize all your accounts again. Do you want to continue?"
+msgstr ""
+
+#: templates/admin.php:126
+msgid "Success! All Facebook Accounts deleted successfully!"
+msgstr ""
+
+#: templates/admin.php:132
+msgid "OAuth Redirect URI:"
+msgstr ""
+
+#: templates/admin.php:133
+msgid "Copy and Paste it in your Facebook App OAuth Redirect URI field."
+msgstr ""
+
+#: templates/admin.php:134
+msgid "Enter App ID:"
+msgstr ""
+
+#: templates/admin.php:135
+msgid "Enter App Secret:"
+msgstr ""
+
+#: templates/admin.php:160
+msgid "Enter API Key:"
+msgstr ""
+
+#: templates/admin.php:161
+msgid "Enter API Secret:"
+msgstr ""
+
+#: templates/admin.php:184
+msgid "Authorized redirect URLs:"
+msgstr ""
+
+#: templates/admin.php:185
+msgid "Copy and Paste it in your Linkedin Authorized redirect URLs field."
+msgstr ""
+
+#: templates/admin.php:195
+msgid "Email Settings"
+msgstr ""
+
+#: templates/admin.php:207
+msgid "Misc. Options"
+msgstr ""
+
+#: templates/admin.php:220
+msgid "Republish Log"
+msgstr ""
+
+#: templates/admin.php:231
+msgid "Show All"
+msgstr ""
+
+#: templates/admin.php:234
+msgid "Scheduled Post"
+msgstr ""
+
+#: templates/admin.php:235
+msgid "Email Sent"
+msgstr ""
+
+#: templates/admin.php:236
+msgid "Trigger Publish"
+msgstr ""
+
+#: templates/admin.php:237
+msgid "Cache Cleared"
+msgstr ""
+
+#: templates/admin.php:238
+msgid "Global Scheduled Queue"
+msgstr ""
+
+#: templates/admin.php:239
+msgid "Single Scheduled Queue"
+msgstr ""
+
+#: templates/admin.php:240
+msgid "Facebook Page Share"
+msgstr ""
+
+#: templates/admin.php:241
+msgid "Facebook Group Share"
+msgstr ""
+
+#: templates/admin.php:242
+msgid "Twitter Profile Share"
+msgstr ""
+
+#: templates/admin.php:243
+msgid "Linkedin Profile Share"
+msgstr ""
+
+#: templates/admin.php:244
+msgid "Entries"
+msgstr ""
+
+#: templates/admin.php:258
+msgid ""
+"It will delete all the log history data related to the republishing events. "
+"Do you want to still continue?"
+msgstr ""
+
+#: templates/admin.php:258
+msgid "Success! All republishing logs deleted successfully!"
+msgstr ""
+
+#: templates/admin.php:258
+msgid "Clear Log"
+msgstr ""
+
+#: templates/admin.php:266
+msgid "Plugin Tools"
+msgstr ""
+
+#: templates/admin.php:271 templates/admin.php:277
+msgid "Export Settings"
+msgstr ""
+
+#: templates/admin.php:272
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+
+#: templates/admin.php:278
+msgid "Copy"
+msgstr ""
+
+#: templates/admin.php:279
+msgid "Copied!"
+msgstr ""
+
+#: templates/admin.php:284 templates/admin.php:291
+msgid "Import Settings"
+msgstr ""
+
+#: templates/admin.php:285
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+
+#: templates/admin.php:292
+msgid "Paste"
+msgstr ""
+
+#: templates/admin.php:297 templates/admin.php:299
+msgid "Reset Settings"
+msgstr ""
+
+#: templates/admin.php:298 templates/admin.php:303 templates/admin.php:308
+msgid "WARNING:"
+msgstr ""
+
+#: templates/admin.php:298
+msgid ""
+"Resetting will delete all custom options to the default settings of the "
+"plugin in your database."
+msgstr ""
+
+#: templates/admin.php:299
+msgid ""
+"It will delete all the data relating to this plugin settings. You have to re-"
+"configure this plugin again. Do you want to still continue?"
+msgstr ""
+
+#: templates/admin.php:299
+msgid "Success! Plugin Settings reset successfully."
+msgstr ""
+
+#: templates/admin.php:302
+msgid "Remove Post Meta & Actions"
+msgstr ""
+
+#: templates/admin.php:303
+msgid ""
+"Resetting will delete all post metadatas and future action events associated "
+"with Post Republish."
+msgstr ""
+
+#: templates/admin.php:304
+msgid ""
+"It will delete all the post meta data & action events relating to global and "
+"single post republishing. It may stop previous scheduled republished event. "
+"Leave if you are not sure what you are doing. Do you want to still continue?"
+msgstr ""
+
+#: templates/admin.php:304
+msgid "Success! All post meta datas and republish events deleted successfully!"
+msgstr ""
+
+#: templates/admin.php:304
+msgid "Clear Post Metas & Events"
+msgstr ""
+
+#: templates/admin.php:307 templates/admin.php:309
+msgid "De-Schedule Posts"
+msgstr ""
+
+#: templates/admin.php:308
+msgid ""
+"It will change the republish date to the original post published date on all "
+"posts."
+msgstr ""
+
+#: templates/admin.php:309
+msgid ""
+"It will change the republish date to the original post published date on all "
+"posts. Leave if you are not sure what you are doing. Do you want to still "
+"continue?"
+msgstr ""
+
+#: templates/admin.php:309
+msgid "Success! All posts de-scheduled successfully!"
+msgstr ""
+
+#: templates/admin.php:316
+msgid "Plugin Help"
+msgstr ""
+
+#: templates/admin.php:320
+msgid "Do you need help with this plugin? Here are some FAQ for you:"
+msgstr ""
+
+#: templates/admin.php:322
+#, php-format
+msgid "How this %s plugin works?"
+msgstr ""
+
+#: templates/admin.php:323
+msgid ""
+"This plugin is mainly based on WordPress Cron system to republish your old "
+"evergreen posts. It will generate republish events when plugin is instructed "
+"to republish a post. It is designed in a way to easily work with any server "
+"enviroment. If still it not works, please contact your hosting provider to "
+"increase server resources."
+msgstr ""
+
+#: templates/admin.php:325
+msgid "WordPress Cron is disabled on my website. What can I do?"
+msgstr ""
+
+#: templates/admin.php:326
+#, php-format
+msgid ""
+"This plugin is heavily based on WP Cron. If it is disabled on your website "
+"which is required by %1$s plugin, please enable native WP Cron or follow "
+"this <a href=\"%2$s\" target=\"_blank\">tutorial</a> to enable server level "
+"PHP Cron instead with an interval of less than Republish Interval option."
+msgstr ""
+
+#: templates/admin.php:330
+msgid ""
+"Native WordPress Cron is currently disabled on your website. Please enable "
+"it or follow the upper mentioned tutorial."
+msgstr ""
+
+#: templates/admin.php:333
+msgid ""
+"Plugin sometimes fails or misses to republish a particular post at a "
+"specified time. What is the reason?"
+msgstr ""
+
+#: templates/admin.php:334
+#, php-format
+msgid ""
+"This plugin is based on WP Cron which depends on the traffic volume of your "
+"website. If you have low traffic, there may be chances to miss any republish "
+"job. To avoid this, please disable native WP Cron and follow this <a href="
+"\"%s\" target=\"_blank\">tutorial</a> to enable server level PHP Cron "
+"instead with an interval of less than Republish Interval option."
+msgstr ""
+
+#: templates/admin.php:336
+msgid ""
+"Doesn’t changing the timestamp affect permalinks that include dates using "
+"this plugin?"
+msgstr ""
+
+#: templates/admin.php:337
+#, php-format
+msgid ""
+"If your permalinks structure contains date, please use %1$s instead of %2$s "
+"respectively if you are using premium version. If you are using free version "
+"then please disable this plugin or upgrade to Premium version to avoid SEO "
+"issues."
+msgstr ""
+
+#: templates/admin.php:339
+msgid ""
+"What is Scheduled Republish (Rewrite) Feature. How to deal with it? Is it "
+"delete the old post?"
+msgstr ""
+
+#: templates/admin.php:340
+msgid ""
+"Suppose you have a post published recenlty or some times ago. It may be "
+"days, months, years etc. Now you want to republish that post want to make "
+"some changes or change some taxonomies. Also you want to republish that post "
+"on a particular date in future automatically. You can do it by using this "
+"feature. Just click on Rewrite link from post row or post edit screen and it "
+"will copy your original post. Now you can make any changes to that copied "
+"post and scheduled it for a future date. Plugin will delete the original "
+"post when this new post is being published on the previously specified "
+"future date."
+msgstr ""
+
+#: templates/admin.php:343
+msgid ""
+"I have some custom taxonomies associated with posts or pages or any custom "
+"post types but they are not showing on settings dropdown. OR, Somehow custom "
+"post types republishing are now stopped suddenly."
+msgstr ""
+
+#: templates/admin.php:344
+msgid ""
+"Free version of this plugin has some limitation. You can republish a "
+"particular post of a custom post type upto 3 times. After that plugin "
+"doesn't republish those posts anymore. You have to use Premium version of "
+"this plugin to use it more than 3 times for custom post types. Also, Post "
+"and Page do not have such limitations in the free version. Taxonomies, other "
+"than Category and Post Tags, are available only on premium version."
+msgstr ""
+
+#: templates/admin.php:346
+msgid ""
+"I am using GoDaddy managed hosting and plugin is not working properly. OR, "
+"My Hosting Company does not support Server Level Cron Jobs. What to do next?"
+msgstr ""
+
+#: templates/admin.php:347
+#, php-format
+msgid ""
+"As if your Hosting does not allow to use server level cron, you have to use "
+"WordPress Native Cron method, to get it properly woking. Just follow the FAQ "
+"no. 2. Otherwise you can use other external cron services like %1$s with 1 "
+"minute interval and use this URL: %2$s to solve this issue."
+msgstr ""
+
+#: templates/admin.php:349
+msgid ""
+"I have just installed this plugin and followed all previous guides but still "
+"it is not working properly. What to do?"
+msgstr ""
+
+#: templates/admin.php:350
+#, php-format
+msgid ""
+"At first, properly configure plugin settings. You can know more details "
+"about every settings hovering the mouse over the question mark icon next to "
+"the settings option. After that, Please wait some time to allow plugin to "
+"run republish process with an interval configured by you from plugin "
+"settings. If still not working, go to Tools > Plugins Tools > Import "
+"Settings > Copy and then open Pastebin.com or GitHub Gist and create a paste "
+"or gist with the copied data and send me the link using Contact page or open "
+"a support on WordPress.org forums (only for free version users). Here are "
+"some common <a href=\"%s\" target=\"_blank\">cron problems</a> related to "
+"WordPress."
+msgstr ""
+
+#: templates/admin.php:352
+msgid ""
+"Plugin is showing a warning notice to disable the plugin after activation. "
+"What is the reason?"
+msgstr ""
+
+#: templates/admin.php:353
+#, php-format
+msgid ""
+"Currently you are using original post published information in your post "
+"permalinks (Settings > Permalinks). But this plugin reassign a current date "
+"to republish a post. So, the permalink will be changed after republish. It "
+"may cause SEO issues. It will be safe not to use free version of this plugin "
+"in such situation. But in the Premium version you can use %1$s instead of "
+"%2$s to solve this issue."
+msgstr ""
+
+#: templates/admin.php:355
+msgid ""
+"Plugin is showing a PHP fatal error after enabling the Premium version. How "
+"to fix this?"
+msgstr ""
+
+#: templates/admin.php:356
+msgid ""
+"Please deactivate the free version of this plugin first from plugins page, "
+"then activate the premium version. It should work as expected."
+msgstr ""
+
+#: templates/admin.php:375
+msgid "Custom"
+msgstr ""
+
+#: templates/admin.php:377 templates/admin.php:380
+msgid "Buy me a coffee!"
+msgstr ""
+
+#: templates/admin.php:383
+#, php-format
+msgid ""
+"Thank you for using %s. If you found the plugin useful buy me a coffee! Your "
+"donation will motivate and make me happy for all the efforts. You can donate "
+"via PayPal."
+msgstr ""
+
+#: templates/admin.php:399
+msgid "You are using the Trial Version"
+msgstr ""
+
+#: templates/admin.php:401
+msgid "You are using the Premium Version"
+msgstr ""
+
+#: templates/admin.php:408
+msgid ""
+"Trial expires in 7 days. It's the best time to Upgrade to Premium Version."
+msgstr ""
+
+#: templates/admin.php:410
+msgid "Thanks for purchasing the Premium Version. Happy Blogging!"
+msgstr ""
+
+#: templates/admin.php:425
+msgid "Upgrade to Premium Now!"
+msgstr ""
+
+#: templates/admin.php:428
+msgid "Upgrade to the premium version and get the following features"
+msgstr ""
+
+#: templates/admin.php:430
+msgid "Custom Post types & Taxonomies"
+msgstr ""
+
+#: templates/admin.php:431
+msgid "Individual & Scheduled Republishing"
+msgstr ""
+
+#: templates/admin.php:432
+msgid "Date Time Range Based Republishing"
+msgstr ""
+
+#: templates/admin.php:433
+msgid "Custom Post Republish Interval & Title"
+msgstr ""
+
+#: templates/admin.php:434
+msgid "Automatic Social Media Share"
+msgstr ""
+
+#: templates/admin.php:435
+msgid "Automatic Cache Plugin Purge Support"
+msgstr ""
+
+#: templates/admin.php:436
+msgid "Can use New Dates in Post Permalinks"
+msgstr ""
+
+#: templates/admin.php:437
+msgid "Change Post Status after Republish"
+msgstr ""
+
+#: templates/admin.php:438
+msgid "One Click Instant Republish & Clone"
+msgstr ""
+
+#: templates/admin.php:439
+msgid "Email Notification upon Republishing"
+msgstr ""
+
+#: templates/admin.php:440
+msgid "Priority Email Support & many more.."
+msgstr ""
+
+#: templates/admin.php:443
+msgid "Start Trial"
+msgstr ""
+
+#: templates/admin.php:445
+msgid "Upgrade Now"
+msgstr ""
+
+#: templates/admin.php:451
+msgid "Server Scheduler"
+msgstr ""
+
+#: templates/admin.php:457
+msgid "WP Cron is currently disabled. Use Server Level Cron instead."
+msgstr ""
+
+#: templates/admin.php:460
+#, php-format
+msgid "The command you want to use is: %s"
+msgstr ""
+
+#: templates/admin.php:461
+#, php-format
+msgid ""
+"The reasonable time interval is 1 minute. That is %s for Cron interval "
+"setting."
+msgstr ""
+
+#: templates/admin.php:466
+msgid "My Other Plugins!"
+msgstr ""
+
+#: templates/admin.php:474
+msgid ""
+"Display last update date and time on pages and posts very easily with "
+"'dateModified' Schema Markup."
+msgstr ""
+
+#: templates/admin.php:484
+msgid ""
+"Ultimate Facebook Comments Solution with instant email notification for any "
+"WordPress Website. Everything is customizable."
+msgstr ""
+
+#: templates/admin.php:494
+msgid ""
+"Add any page extension like .html, .php, .aspx, .htm, .asp, .shtml only to "
+"wordpress pages very easily (tested on Yoast SEO, All in One SEO Pack, Rank "
+"Math, SEOPresss and Others)."
+msgstr ""
+
+#: templates/admin.php:504
+msgid ""
+"Simple Posts Ticker is a small tool that shows your most recent posts in a "
+"marquee style."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpautorepublish.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The WP Auto Republish plugin helps revive old posts by resetting the publish "
+"date to the current date. This will push old posts to your front page, the "
+"top of archive pages, and back into RSS feeds. Ideal for sites with a large "
+"repository of evergreen content."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sayan Datta"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.sayandatta.in"
+msgstr ""

@@ -1,0 +1,54 @@
+name: Deploy
+on:
+  push:
+    tags:
+      - "*"
+jobs:
+  tag:
+    name: New Version
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Get The Version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
+      - name: Build
+        run: |
+          npm ci
+          composer install --no-dev --prefer-dist --no-progress --no-suggest
+          npm run dist
+      - name: Upload Latest Version to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET_DOWNLOADS }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.S3_DOWNLOADS_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_DOWNLOADS_AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-west-1'     # optional: defaults to us-east-1
+          SOURCE_DIR: 'artifact'      # optional: defaults to entire repository
+          DEST_DIR: ${{ secrets.S3_AWS_PRODUCTS_FOLDER }}/$BUILD_NAME/latest
+      - name: Upload Tagged Version to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET_DOWNLOADS }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.S3_DOWNLOADS_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_DOWNLOADS_AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-west-1'     # optional: defaults to us-east-1
+          SOURCE_DIR: 'artifact'      # optional: defaults to entire repository
+          DEST_DIR: ${{ secrets.S3_AWS_PRODUCTS_FOLDER }}/$BUILD_NAME/$BUILD_VERSION
+      - name: Dump GitHub Context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
+      - name: Send Update to The Store
+        env:
+          PRODUCT_ID: ${{ secrets.THEMEISLE_ID }}
+          AUTH_TOKEN: ${{ secrets.RS_STORE_AUTH }}
+          STORE_URL: ${{ secrets.RS_STORE_URL }}
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BUILD_VERSION: ${{ steps.get_version.outputs.VERSION }}
+        uses: Codeinwp/action-store-release@main
