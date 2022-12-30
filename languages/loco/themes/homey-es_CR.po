@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Homey\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 06:56+0000\n"
-"PO-Revision-Date: 2022-12-24 12:56+0000\n"
+"PO-Revision-Date: 2022-12-29 09:09+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Costa Rica\n"
 "Language: es_CR\n"
@@ -96,110 +96,6 @@ msgid ""
 "        <kbd>Secret Key</kbd></p>"
 msgstr ""
 
-#: framework/options/homey-options.php:7389
-msgid "<span class=\"font24\">Email Footer</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7349
-msgid "<span class=\"font24\">Email Header</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:8115
-msgid "<span class=\"font24\">ID Verification Request</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7867
-msgid "<span class=\"font24\">Local Payment Received</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7604
-msgid "<span class=\"font24\">New Registered Admin Notification</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7566
-msgid "<span class=\"font24\">New Registered User Notification</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7644
-msgid "<span class=\"font24\">New Reservation Received</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7674
-msgid "<span class=\"font24\">New Reservation Sent</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7909
-msgid "<span class=\"font24\">New Submission of Listing</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:8303
-msgid "<span class=\"font24\">Payment Adjustment Add Money</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:8340
-msgid "<span class=\"font24\">Payment Adjustment Deduct Money</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:8267
-msgid "<span class=\"font24\">Payout Cancelled</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:8232
-msgid "<span class=\"font24\">Payout Completed</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:8160
-msgid "<span class=\"font24\">Payout Request Admin</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:8195
-msgid "<span class=\"font24\">Payout Request Host</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7768
-msgid "<span class=\"font24\">Reservation Booked Admin</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7735
-msgid "<span class=\"font24\">Reservation Booked User</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7834
-msgid "<span class=\"font24\">Reservation Cancelled</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7801
-msgid "<span class=\"font24\">Reservation Declined</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:2900
-msgid "<span class=\"font24\">Section Titles</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7439
-msgid "<span class=\"font24\">Social Link 1</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7474
-msgid "<span class=\"font24\">Social Link 2</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7501
-msgid "<span class=\"font24\">Social Link 3</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7529
-msgid "<span class=\"font24\">Social Link 4</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:7971
-msgid "<span class=\"font24\">Update Submission of Listing</span>"
-msgstr ""
-
-#: framework/options/homey-options.php:8043
-msgid "<span class=\"font24\">Upgrade to Featured</span>"
-msgstr ""
-
 #: template-parts/dashboard/profile/payment-method.php:17
 #: template-parts/dashboard/wallet/payment-method-depricated.php:10
 msgid "<strong>Congratulation!</strong> Your data has been saved."
@@ -213,7 +109,7 @@ msgstr ""
 
 #: template/dashboard-submission.php:113
 msgid "<strong>Error!</strong> Upload at least one image."
-msgstr ""
+msgstr "<strong>¡Error!</strong> Sube al menos una imagen."
 
 #: localization.php:256
 #, php-format
@@ -1715,9 +1611,9 @@ msgstr "Confirmar nueva contraseña"
 msgid "Confirm Password"
 msgstr "Confirmar Contraseña"
 
-#: framework/options/homey-options.php:7631
+#: framework/options/homey-options.php:7703
 msgid "Confirm Reservation"
-msgstr ""
+msgstr "Confirmar La Reserva"
 
 #: framework/functions/helper.php:2186
 msgid "Congo"
@@ -2561,6 +2457,14 @@ msgstr ""
 #: inc/register-scripts.php:628
 msgid "Email field required"
 msgstr "Campo de correo electrónico requiere"
+
+#: framework/options/homey-options.php:7389
+msgid "Email Footer"
+msgstr "Pie De Página De Correo Electrónico"
+
+#: framework/options/homey-options.php:7349
+msgid "Email Header"
+msgstr "Encabezado De Correo Electrónico"
 
 #: framework/options/homey-options.php:7328
 msgid "Email Management"
@@ -3929,10 +3833,8 @@ msgid "Fixed"
 msgstr "Fijo"
 
 #: framework/options/homey-options.php:4813
-msgid ""
-"Follow <a target=\"_blank\" href=\"https://favethemes.zendesk.com/hc/en-"
-"us/articles/360045293072\">WooCommerce Documentation</a>"
-msgstr ""
+msgid "Follow"
+msgstr "Siga"
 
 #: localization.php:428
 msgid "Follow me"
@@ -4761,6 +4663,10 @@ msgstr "ID"
 msgid "ID Verification"
 msgstr "Verificación de la identidad"
 
+#: framework/options/homey-options.php:8115
+msgid "ID Verification Request"
+msgstr "ID Solicitud de Verificación de"
+
 #: framework/options/homey-options.php:4136
 #: framework/options/homey-options.php:4145
 msgid "IE: 1, 2, 4, 5"
@@ -5454,6 +5360,10 @@ msgstr "Carga Más"
 #: single-listing/what-nearby.php:34
 msgid "Local Flavor"
 msgstr "El Sabor Local"
+
+#: framework/options/homey-options.php:7867
+msgid "Local Payment Received"
+msgstr "Local Del Pago Recibido"
 
 #: single-listing/what-nearby.php:35
 msgid "Local Services"
@@ -6283,13 +6193,29 @@ msgstr ""
 msgid "New Register"
 msgstr "Nuevo Registro"
 
+#: framework/options/homey-options.php:7604
+msgid "New Registered Admin Notification"
+msgstr "Nuevo Registrado De Administración De Notificación"
+
+#: framework/options/homey-options.php:7566
+msgid "New Registered User Notification"
+msgstr "Nuevo Usuario Registrado Notificación"
+
 #: template-parts/dashboard/admin-stats.php:22
 msgid "New reservation"
 msgstr "Nueva reserva"
 
+#: framework/options/homey-options.php:7644
+msgid "New Reservation Received"
+msgstr "Nueva Reserva Recibida"
+
 #: framework/options/homey-options.php:7653
 msgid "New Reservation Request at {site_title}"
 msgstr ""
+
+#: framework/options/homey-options.php:7674
+msgid "New Reservation Sent"
+msgstr "Nueva Reserva Enviada"
 
 #: template-parts/dashboard/admin-stats.php:24
 msgid "New reservations"
@@ -6298,6 +6224,10 @@ msgstr "Las nuevas reservas"
 #: framework/options/homey-options.php:7946
 msgid "New submission listing on {site_url}"
 msgstr ""
+
+#: framework/options/homey-options.php:7909
+msgid "New Submission of Listing"
+msgstr "Nueva Presentación de Listado de"
 
 #: template-parts/dashboard/admin-stats.php:27
 msgid "New User"
@@ -7008,6 +6938,14 @@ msgstr "Pago"
 msgid "Payment Adjustment"
 msgstr "Ajuste De Pago"
 
+#: framework/options/homey-options.php:8303
+msgid "Payment Adjustment Add Money"
+msgstr "Ajuste De Pago Añadir Dinero"
+
+#: framework/options/homey-options.php:8340
+msgid "Payment Adjustment Deduct Money"
+msgstr "Ajuste De Pago Deducir El Dinero"
+
 #: framework/options/homey-options.php:8313
 #: framework/options/homey-options.php:8350
 msgid "Payment Adjustment on {site_url}"
@@ -7070,6 +7008,14 @@ msgstr "Liquidación"
 msgid "Payout Amount"
 msgstr "Importe De Pago"
 
+#: framework/options/homey-options.php:8267
+msgid "Payout Cancelled"
+msgstr "Pago Cancelado"
+
+#: framework/options/homey-options.php:8232
+msgid "Payout Completed"
+msgstr "Pago Completado"
+
 #: template-parts/dashboard/wallet/payouts-host.php:25
 #: template-parts/dashboard/wallet/payouts-host.php:99
 #: template-parts/dashboard/wallet/payouts.php:97
@@ -7077,9 +7023,17 @@ msgstr "Importe De Pago"
 msgid "Payout Method"
 msgstr "Método De Pago"
 
+#: framework/options/homey-options.php:8160
+msgid "Payout Request Admin"
+msgstr "Solicitud De Pago Admin"
+
 #: framework/options/homey-options.php:8277
 msgid "Payout Request Cancelled on {site_url}"
 msgstr ""
+
+#: framework/options/homey-options.php:8195
+msgid "Payout Request Host"
+msgstr "Solicitud De Pago De Host"
 
 #: framework/options/homey-options.php:8205
 #: framework/options/homey-options.php:8242
@@ -8073,10 +8027,22 @@ msgstr "Los Campos Requeridos"
 msgid "Reservation"
 msgstr "Reserva"
 
+#: framework/options/homey-options.php:7768
+msgid "Reservation Booked Admin"
+msgstr "Reserva Admin"
+
 #: framework/options/homey-options.php:7744
 #: framework/options/homey-options.php:7777
 msgid "Reservation Booked on {site_title}"
 msgstr ""
+
+#: framework/options/homey-options.php:7735
+msgid "Reservation Booked User"
+msgstr "Reserva De Usuario"
+
+#: framework/options/homey-options.php:7834
+msgid "Reservation Cancelled"
+msgstr "Reserva Cancelada"
 
 #: framework/options/homey-options.php:7843
 msgid "Reservation Cancelled on {site_title}"
@@ -8085,6 +8051,10 @@ msgstr ""
 #: framework/options/homey-options.php:7712
 msgid "Reservation Confirmed on {site_title}"
 msgstr ""
+
+#: framework/options/homey-options.php:7801
+msgid "Reservation Declined"
+msgstr "Reserva Disminuido"
 
 #: framework/options/homey-options.php:7810
 msgid "Reservation Declined on {site_title}"
@@ -8470,6 +8440,10 @@ msgstr "Clave Secreta"
 #: framework/vc_extend.php:134
 msgid "Section Title"
 msgstr "El Título De La Sección"
+
+#: framework/options/homey-options.php:2900
+msgid "Section Titles"
+msgstr "Títulos De La Sección"
 
 #: template-parts/dashboard/wallet/main-guest.php:83
 msgid "Security"
@@ -9190,6 +9164,22 @@ msgstr "Los Iconos Sociales De Color"
 #: framework/functions/profile.php:1073
 msgid "Social Info"
 msgstr "Social Info"
+
+#: framework/options/homey-options.php:7439
+msgid "Social Link 1"
+msgstr "Social 1 Link"
+
+#: framework/options/homey-options.php:7474
+msgid "Social Link 2"
+msgstr "Enlace Social 2"
+
+#: framework/options/homey-options.php:7501
+msgid "Social Link 3"
+msgstr "Enlace Social 3"
+
+#: framework/options/homey-options.php:7529
+msgid "Social Link 4"
+msgstr "Enlace Social 4"
 
 #: template-parts/dashboard/profile/social.php:21
 #: template-parts/dashboard/users/user-detail.php:400
@@ -10167,6 +10157,10 @@ msgstr ""
 msgid "Update submission listing on {site_url}"
 msgstr ""
 
+#: framework/options/homey-options.php:7971
+msgid "Update Submission of Listing"
+msgstr "Actualización de la Presentación de listados"
+
 #: inc/register-scripts.php:251
 msgid "Updating Currency, Please wait..."
 msgstr "Actualización de Divisas, por Favor espere..."
@@ -10866,6 +10860,10 @@ msgstr "Sin Destacados"
 #: single-hm_homey_memberships.php:480
 msgid "Woo Commerce"
 msgstr "Woo Commerce"
+
+#: framework/options/homey-options.php:4813
+msgid "WooCommerce Documentation"
+msgstr "WooCommerce Documentación"
 
 #: framework/metaboxes/homey-meta-boxes.php:1436
 msgid "Write a testimonial into the textarea."

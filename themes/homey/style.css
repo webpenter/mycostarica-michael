@@ -19,6 +19,9 @@ Text Domain: homey
 .dashboard-sidebar, .dashboard-page-title, .alert, .block-head .block-right, .payment-buttons, .header-dashboard, .btn {display:none;}
 .dashboard-with-sidebar {padding: 0 !important;}
 }
+body {
+  background-image: url("images/costa-rica.png") !important;
+}
 body.blog .main-content-area {
 	margin-top: 40px;
 }
